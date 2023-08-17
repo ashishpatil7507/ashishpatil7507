@@ -14,11 +14,11 @@
 
 ## 🌐 Socials:
 
-<a href="https://fb.com/rajkishorbgp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rajkishorbgp" height="30" width="40" />
+<a href="https://fb.com/ashishpatil7507" target="blank"><img align="center" src="https://raw.githubusercontent.com/ashishpatil7507/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rajkishorbgp" height="30" width="40" />
 </a>
-<a href="https://instagram.com/rajkishorbgp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajkishorbgp" height="30" width="40" />
+<a href="https://instagram.com/ashishpatil7507" target="blank"><img align="center" src="https://raw.githubusercontent.com/ashishpatil7507/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajkishorbgp" height="30" width="40" />
 </a>
-<a href="https://www.youtube.com/@rajkishorbgp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="rajkishorbgp" height="30" width="40" />
+<a href="https://www.youtube.com/@ashishpatil" target="blank"><img align="center" src="https://raw.githubusercontent.com/ashishpatil7507/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="rajkishorbgp" height="30" width="40" />
 </a>
 
 
@@ -27,23 +27,10 @@
 # 💻 Tech Stack:
 ![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
 # 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=rajkishorbgp&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=rajkishorbgp&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=rajkishorbgp&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=rajkishorbgp&theme=radical&no-frame=false&no-bg=false&margin-w=4)
-
-## 🐦 Latest Tweet
-[![](https://gtce.itsvg.in/api?username=rajkishorbgp )](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+![](https://github-readme-stats.vercel.app/api?username=ashishpatil7507gp&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=ashishpatil7507gp&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=ashishpatil7507bgp&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-
-  ## 💰 You can help me by Donating
-  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rajkishorbgp) 
-
-  
-## Snake eating my contribution graph
-![snake gif](https://github.com/rajkishorbgp/rajkishorbgp/blob/output/github-contribution-grid-snake.gif)
