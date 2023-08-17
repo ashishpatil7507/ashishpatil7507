@@ -1,11 +1,11 @@
 
 <h1 align="center">Hi 👋, I'm Ashish Patil</h1>
-<h3 align="center">A passionate frontend developer, java Programmer , Problem Solver from India</h3>
+<h3 align="center">A passionate frontend Developer 💕, java Programmer🙌 , Problem Solver from India❤️</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=rajkishorbgp&label=Profile%20views&color=0e75b6&style=flat" alt="rajkishorbgp" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Profile%20views&color=0e75b6&style=flat" alt="ashishpatil7507" /> </p>
 
 # 💫 About Me:
-🔭 I’m Currently Preparing For internship.<br>🌱 I’m currently learning **Android developer**.<br>🤔 Working At Software developer.<br>💬 Ask me about Good First Issues & Exciting projects to work on.<br>📫 How to reach me **rajkishorbgp6@gmail.com**<br>⚡ Fun fact: Won first prize in volleyball at district level.
+🔭 I’m Currently Preparing For internship.<br>🌱 I’m currently learning **Data Structures using Java**.<br>🤔 Working As a Software developer.<br>💬 Ask me about Good First Issues & Exciting projects to work on.<br>📫 How to reach me **ashishpatil7507@gmail.com**<br>⚡ Fun fact: Enjoying Collage Life With Friends Without Worries❤️
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2344801/screenshots/4774578/alphatestersanimation2.gif">
 
