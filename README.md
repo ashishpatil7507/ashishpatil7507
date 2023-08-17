@@ -5,10 +5,6 @@
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif">
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ashishpatil7507" alt="ashishpatil7507" /></a> </p>
-
-<p align="left"> <a href="https://twitter.com/ashishpatil7507" target="blank"><img src="https://img.shields.io/twitter/follow/ashishpatil7507?logo=twitter&style=for-the-badge" alt="ashishpatil7507" /></a> </p>
-
 - 🌱 I’m currently learning **Data Structures Using Java, full Stack Website Development**
 
 - 📫 How to reach me **pashish7507@gmail.com**
