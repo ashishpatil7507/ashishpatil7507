@@ -3,7 +3,7 @@
 <h1 align="center">Hi 👋, I'm Ashish Patil</h1>
 <h3 align="center">A passionate Webiste developer from India and a Software Engineer with excellent problem-solving skills & ability to perform Well in a team. Passionate about coding & teaching Student how to Code efficiently</h3>
 
-img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif"
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif">
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ashishpatil7507" alt="ashishpatil7507" /></a> </p>
 
