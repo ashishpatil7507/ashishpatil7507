@@ -12,25 +12,17 @@
 
 
 
-## 🌐 Socials:
+## 🌐 Socials:🔗 Links
 
-<a href="https://fb.com/ashishpatil7507" target="blank"><img align="center" src="https://raw.githubusercontent.com/ashishpatil7507/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rajkishorbgp" height="30" width="40" />
-</a>
-<a href="https://instagram.com/ashishpatil7507" target="blank"><img align="center" src="https://raw.githubusercontent.com/ashishpatil7507/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajkishorbgp" height="30" width="40" />
-</a>
-<a href="https://www.youtube.com/@ashishpatil" target="blank"><img align="center" src="https://raw.githubusercontent.com/ashishpatil7507/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="rajkishorbgp" height="30" width="40" />
-</a>
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://www.linkedin.com/](https://www.linkedin.com/in/ashishpatil7507/))
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]([https://twitter.com/](https://twitter.com/AshishPatil7507))
+[![Codepen](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]([https://katherineoelsner.com/](https://www.hackerrank.com/pashish7507))
 
 
 
 
 # 💻 Tech Stack:
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=ashishpatil7507gp&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=ashishpatil7507gp&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ashishpatil7507bgp&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white) ![SQL](https://img.shields.io/badge/sql-3670A0?style=flat&logo=sql&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23FF9900.svg?style=flat&logo=javascript&logoColor=white)
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
