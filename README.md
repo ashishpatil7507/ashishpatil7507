@@ -1,32 +1,49 @@
 
-
 <h1 align="center">Hi 👋, I'm Ashish Patil</h1>
-<h3 align="center">A passionate Webiste developer from India and a Software Engineer with excellent problem-solving skills & ability to perform Well in a team. Passionate about coding & teaching Student how to Code efficiently</h3>
+<h3 align="center">A passionate frontend developer, java Programmer , Problem Solver from India</h3>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif">
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=rajkishorbgp&label=Profile%20views&color=0e75b6&style=flat" alt="rajkishorbgp" /> </p>
 
-- 🌱 I’m currently learning **Data Structures Using Java, full Stack Website Development**
+# 💫 About Me:
+🔭 I’m Currently Preparing For internship.<br>🌱 I’m currently learning **Android developer**.<br>🤔 Working At Software developer.<br>💬 Ask me about Good First Issues & Exciting projects to work on.<br>📫 How to reach me **rajkishorbgp6@gmail.com**<br>⚡ Fun fact: Won first prize in volleyball at district level.
 
-- 📫 How to reach me **pashish7507@gmail.com**
+<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/2344801/screenshots/4774578/alphatestersanimation2.gif">
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://codepen.io/https://codepen.io/ashish-ramling-patil" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="https://codepen.io/ashish-ramling-patil" height="30" width="40" /></a>
-<a href="https://twitter.com/ashishpatil7507" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="ashishpatil7507" height="30" width="40" /></a>
-<a href="https://stackoverflow.com/users/https://stackoverflow.com/users/22331407/ashish-patil" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="https://stackoverflow.com/users/22331407/ashish-patil" height="30" width="40" /></a>
-<a href="https://kaggle.com/https://www.kaggle.com/ashishpatil007" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="https://www.kaggle.com/ashishpatil007" height="30" width="40" /></a>
-<a href="https://fb.com/https://www.facebook.com/ashish.patil.prince" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="https://www.facebook.com/ashish.patil.prince" height="30" width="40" /></a>
-<a href="https://instagram.com/https://www.instagram.com/ashishpatil.officiall/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/ashishpatil.officiall/" height="30" width="40" /></a>
-<a href="https://www.codechef.com/users/https://www.codechef.com/users/ashishpatil750" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.1.0/icons/codechef.svg" alt="https://www.codechef.com/users/ashishpatil750" height="30" width="40" /></a>
-<a href="https://www.hackerrank.com/https://www.hackerrank.com/pashish7507" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="https://www.hackerrank.com/pashish7507" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/https://leetcode.com/pashish7507/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="https://leetcode.com/pashish7507/" height="30" width="40" /></a>
-</p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=ashishpatil7507&show_icons=true&locale=en&layout=compact" alt="ashishpatil7507" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=ashishpatil7507&show_icons=true&locale=en" alt="ashishpatil7507" /></p>
+## 🌐 Socials:
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=ashishpatil7507&" alt="ashishpatil7507" /></p>
+<a href="https://fb.com/rajkishorbgp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="rajkishorbgp" height="30" width="40" />
+</a>
+<a href="https://instagram.com/rajkishorbgp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="rajkishorbgp" height="30" width="40" />
+</a>
+<a href="https://www.youtube.com/@rajkishorbgp" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="rajkishorbgp" height="30" width="40" />
+</a>
+
+
+
+
+# 💻 Tech Stack:
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=flat&logo=c&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat&logo=java&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=rajkishorbgp&theme=dark&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://github-readme-streak-stats.herokuapp.com/?user=rajkishorbgp&theme=dark&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=rajkishorbgp&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
+
+## 🏆 GitHub Trophies
+![](https://github-profile-trophy.vercel.app/?username=rajkishorbgp&theme=radical&no-frame=false&no-bg=false&margin-w=4)
+
+## 🐦 Latest Tweet
+[![](https://gtce.itsvg.in/api?username=rajkishorbgp )](https://github.com/VishwaGauravIn/github-twitter-card-embed)
+
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+
+
+  ## 💰 You can help me by Donating
+  [![BuyMeACoffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/rajkishorbgp) 
+
+  
+## Snake eating my contribution graph
+![snake gif](https://github.com/rajkishorbgp/rajkishorbgp/blob/output/github-contribution-grid-snake.gif)
