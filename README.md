@@ -1,5 +1,5 @@
   
-<h1 align="center">Hi 👋, I'm Ashish Patil 🧑‍💻</h1>
+<h1 align="center">Hi 👋,<b> I'm Ashish Patil</b> 🧑‍💻</h1>
 <h3 align="center">A passionate frontend Developer 💕, java Programmer🙌 , And a Problem Solver from India❤️</h3>
 <h4 align="center">Apart from coding I always enjoy meeting new people and hearing about their perspectives about how different things work 🤓. Please don’t hesitate to reach out if you want to share thoughts about emerging tech or anything else.</h4>
 
