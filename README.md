@@ -7,7 +7,7 @@
 
 # About Me
 
-🔭 **Currently Preparing for Internship Opportunities**  
+🔭 **Currently Doing Masters in Cybersecurity from Mumbai University**  
 🌱 **Actively Learning:** Ethical Hacking, Penetration Testing, and Advanced Security Concepts.  
 🤔 **Passionate About:** Solving real-world cybersecurity challenges and identifying vulnerabilities.  
 💬 **Let’s Talk About:** Cybersecurity projects, ethical hacking methodologies, and penetration testing tools.  
