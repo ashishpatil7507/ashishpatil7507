@@ -24,7 +24,7 @@
 
 
 
-<a  href="https://t.me/phoenixashok007"><img alt=" Telegram" src="https://img.shields.io/badge/Telegram-ff4d4d?style=for-the-badge&logo=telegram&logoColor=white"></a>
+
 <a href="https://www.instagram.com/ashishpatil.officiall"><img  alt="instagram" src="https://img.shields.io/badge/instagram-ffd9b3?style=for-the-badge&logo=instagram&logoColor=red" />
 <a href=https://www.linkedin.com/in/ashishpatil7507/><img alt=" Linkedin" src="https://img.shields.io/badge/Linkedin-%2300acee.svg?&style=for-the-badge&logo=Linkedin&logoColor=white&alt=Linkedin"></a>
 
@@ -43,6 +43,31 @@
 ![OWASP ZAP](https://img.shields.io/badge/OWASP-ZAP-%23FF5733.svg?style=flat&logo=zapier&logoColor=white)  ![Metasploit](https://img.shields.io/badge/Metasploit-%230081CB.svg?style=flat&logo=metasploit&logoColor=white)  ![Nessus](https://img.shields.io/badge/Nessus-%234A90E2.svg?style=flat&logo=nessus&logoColor=white)  
 ![Snort](https://img.shields.io/badge/Snort-%23FFC300.svg?style=flat&logo=snort&logoColor=black)  ![Wireshark](https://img.shields.io/badge/Wireshark-%2300AEEF.svg?style=flat&logo=wireshark&logoColor=white)  
 ![Python for Security](https://img.shields.io/badge/Python-for%20Security-%233776AB.svg?style=flat&logo=python&logoColor=white)  ![PowerShell Scripting](https://img.shields.io/badge/PowerShell-Scripting-%23007ACC.svg?style=flat&logo=powershell&logoColor=white)  
+
+# Interests
+
+- Cybersecurity Research  
+- Penetration Testing & Ethical Hacking  
+- Networking & Wireless Security  
+- Blockchain & Cryptocurrency Security
+
+# Projects
+
+### 🛡️ **Web Application Security Auditing**  
+- Conducted comprehensive security assessments of web applications, identifying and mitigating common vulnerabilities like SQL injection, XSS, and CSRF.  
+- **🔧 Tools Used:** Burp Suite, OWASP ZAP, Kali Linux  
+
+### 💻 **Penetration Testing**  
+- Performed simulated penetration tests on networks and systems to uncover and exploit vulnerabilities, improving overall security.  
+- **🔧 Tools Used:** Kali Linux, Metasploit, Burp Suite  
+
+### 🤖 **Security Automation**  
+- Developed Python and PowerShell scripts to automate vulnerability scanning, patch management, and security workflows, enhancing efficiency.  
+- **🔧 Tools Used:** Nessus, OpenVAS  
+
+### 🌐 **Network Security Configuration**  
+- Configured and secured enterprise network environments, implementing robust measures such as firewalls, VPNs, and intrusion detection systems (IDS).  
+- **🔧 Tools Used:** pfSense, Snort, Wireshark  
 
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
