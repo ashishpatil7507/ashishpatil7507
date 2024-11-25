@@ -32,9 +32,12 @@
 
 
 # 💻 Tech Stack:
-![JAVA](https://img.shields.io/badge/java-e5ff00.svg?style=flat&logo=java&logoColor=blue) ![Data-Structures](https://img.shields.io/badge/Data-Structures-67b3ff.svg?style=flat&logo=java&logoColor=ffdd54)          
-  ![CyberSecurity](https://img.shields.io/badge/HTML5-CSS-%23ED8B00.svg?style=flat&logo=HTML5&logoColor=red )  
-![JavaScript](https://img.shields.io/badge/javascript-ff4d4d.svg?style=flat&logo=javascript&logoColor=white) ![SQL](https://img.shields.io/badge/sql-3670A0?style=flat&logo=sql&logoColor=ffdd54)  ![CCNA](https://img.shields.io/badge/FireBase-ffd9b3.svg?style=flat&logo=FireBase&logoColor=blue) 
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-%2300A86B.svg?style=flat&logo=security&logoColor=white) ![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-%23E34F26.svg?style=flat&logo=hackerone&logoColor=white)  ![Kali Linux](https://img.shields.io/badge/Kali-Linux-%23007ACC.svg?style=flat&logo=linux&logoColor=white)  ![Kali Tools](https://img.shields.io/badge/Kali-Tools-%23F0DB4F.svg?style=flat&logo=linux&logoColor=black)  ![Network Security](https://img.shields.io/badge/Network-Security-%2300BFFF.svg?style=flat&logo=internet-security&logoColor=white)  
+![Penetration Testing](https://img.shields.io/badge/Penetration-Testing-%234285F4.svg?style=flat&logo=penetration-testing&logoColor=white)  ![CCNA](https://img.shields.io/badge/CCNA-%23FF5733.svg?style=flat&logo=cisco&logoColor=white)  ![Burp Suite](https://img.shields.io/badge/Burp-Suite-%23F7462E.svg?style=flat&logo=burpsuite&logoColor=white)  
+![OWASP ZAP](https://img.shields.io/badge/OWASP-ZAP-%23FF5733.svg?style=flat&logo=zapier&logoColor=white)  ![Metasploit](https://img.shields.io/badge/Metasploit-%230081CB.svg?style=flat&logo=metasploit&logoColor=white)  ![Nessus](https://img.shields.io/badge/Nessus-%234A90E2.svg?style=flat&logo=nessus&logoColor=white)  
+![Snort](https://img.shields.io/badge/Snort-%23FFC300.svg?style=flat&logo=snort&logoColor=black)  ![Wireshark](https://img.shields.io/badge/Wireshark-%2300AEEF.svg?style=flat&logo=wireshark&logoColor=white)  
+![Python for Security](https://img.shields.io/badge/Python-for%20Security-%233776AB.svg?style=flat&logo=python&logoColor=white)  ![PowerShell Scripting](https://img.shields.io/badge/PowerShell-Scripting-%23007ACC.svg?style=flat&logo=powershell&logoColor=white)  
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
