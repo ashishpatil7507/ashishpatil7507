@@ -1,7 +1,7 @@
   
 <h1 align="center">Hi 👋,<b> I'm Ashish Patil</b> 🧑‍💻</h1>
 <h3 align="center">A passionate Ethical Hacker 💕, java Programmer🙌 , And a Problem Solver from India❤️</h3>
-<h4 align="center">Apart from coding I always enjoy meeting new people and hearing about their perspectives about how different things work 🤓. Please don’t hesitate to reach out if you want to share thoughts about emerging tech or anything else.</h4>
+<h4 align="center">"Beyond coding, I enjoy connecting with others to explore their perspectives on technology, especially cybersecurity. Feel free to reach out if you'd like to discuss emerging tech or security trends!"</h4>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Profile%20views&color=0e75b6&style=flat" alt="ashishpatil7507" /> </p>
 
