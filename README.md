@@ -5,8 +5,14 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Profile%20views&color=0e75b6&style=flat" alt="ashishpatil7507" /> </p>
 
-# 💫 About Me:
-🔭 I’m Currently Preparing For internship.<br>🌱 I’m currently learning **Ethical Hacking & Penetration Testing**.<br>🤔 Working As a Ethical Hacker.<br>💬 Ask me about Good First Issues & Exciting projects to work on.<br>📫 How to reach me **ashishpatil.sknsits.comp@gmail.com**<br>⚡ Fun fact: Enjoying Collage Life With Friends Without Worries❤️
+# About Me
+
+🔭 **Currently Preparing for Internship Opportunities**  
+🌱 **Actively Learning:** Ethical Hacking, Penetration Testing, and Advanced Security Concepts.  
+🤔 **Passionate About:** Solving real-world cybersecurity challenges and identifying vulnerabilities.  
+💬 **Let’s Talk About:** Cybersecurity projects, ethical hacking methodologies, and penetration testing tools.  
+📫 **Reach Me At:** [ashishpatil.professional@gmail.com](mailto:ashishpatil.sknsits.comp@gmail.com)  
+⚡ **Fun Fact:** Thriving in the balance of mastering security and making unforgettable memories with friends! ❤️  
 
 <img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1059583/screenshots/4171367/coding-freak.gif">
 
