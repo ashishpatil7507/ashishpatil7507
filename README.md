@@ -69,8 +69,6 @@
 - Configured and secured enterprise network environments, implementing robust measures such as firewalls, VPNs, and intrusion detection systems (IDS).  
 - **🔧 Tools Used:** pfSense, Snort, Wireshark  
 
-### ✍️ Random Dev Quote
-![cybersecurity](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-![Random Cybersecurity Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical&category=cybersecurity)
+
 
 
