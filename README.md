@@ -44,10 +44,10 @@
 
 # Interests
 
-- Cybersecurity Research  
-- Penetration Testing & Ethical Hacking  
-- Networking & Wireless Security  
-- Blockchain & Cryptocurrency Security
+**- Cybersecurity Research** <br>
+**- Penetration Testing & Ethical Hacking**  <br>
+**- Networking & Wireless Security**<br>
+**- Blockchain & Cryptocurrency Security**
 
 # Projects
 
