@@ -1,10 +1,20 @@
   
 <h1 align="center">Hi 👋,<b> I'm Ashish Patil</b> 🧑‍💻</h1>
 
-<h3 align="center">A passionate Cyber Security Analyst (VAPT)⚡ SOC & EDR - SIEM 🙌 from India❤️</h3>
-<h4 align="center">"Beyond coding, I enjoy connecting with others to explore their perspectives on technology, especially cybersecurity. Feel free to reach out if you'd like to discuss emerging tech or security trends!"</h4>
-<h1https://ashish-patil.gamer.gd/</h1>
+<h3 align="center">
+A passionate Cyber Security Analyst (VAPT)⚡ SOC & EDR - SIEM 🙌 from India❤️
+</h3>
 
+<h4 align="center">
+"Beyond coding, I enjoy connecting with others to explore their perspectives on technology, especially cybersecurity. 
+Feel free to reach out if you'd like to discuss emerging tech or security trends!"
+</h4>
+
+<p align="center">
+🔗 <a href="https://ashish-patil.gamer.gd/" target="_blank">
+Visit My Portfolio
+</a>
+</p>
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Profile%20views&color=0e75b6&style=flat" alt="ashishpatil7507" /> </p>
 
 # About Me
