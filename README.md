@@ -1,21 +1,18 @@
   
-<h1 align="center">Hi 👋,<b> I'm Ashish Patil</b> 🧑‍💻</h1>
+<div align="center">
+  
+  <!-- Hacker-style animated typing intro -->
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=0FFF50&center=true&vCenter=true&width=700&lines=%F0%9F%94%A5+Ashish+Patil+%7C+Cybersecurity+Analyst;%F0%9F%92%BB+Red+Teaming+%26+VAPT+Specialist;%F0%9F%9B%A1%EF%B8%8F+Web+App+Penetration+Tester;%F0%9F%94%8D+Ethical+Hacker+%7C+Security+Researcher" alt="Typing SVG" />
 
-<h3 align="center">
-A passionate Cyber Security Analyst (VAPT)⚡ SOC & EDR - SIEM 🙌 from India❤️
-</h3>
+  <!-- Terminal-style tagline -->
+  <br>
+  <code>│ Red Team │ VAPT │ Web App Pentesting │ Offensive Security │ Python Automation │</code>
+  <br><br>
 
-<h4 align="center">
-"Beyond coding, I enjoy connecting with others to explore their perspectives on technology, especially cybersecurity. 
-Feel free to reach out if you'd like to discuss emerging tech or security trends!"
-</h4>
-
-<p align="center">
-🔗 <a href="https://ashish-patil.gamer.gd/" target="_blank">
-Visit My Portfolio
-</a>
-</p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Profile%20views&color=0e75b6&style=flat" alt="ashishpatil7507" /> </p>
+  <!-- Profile visitor badge -->
+  <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Hacker+Visits&color=0e75b6&style=flat" alt="Profile views" />
+  
+</div>
 
 # About Me
 
