@@ -1,19 +1,3 @@
-  
-<div align="center">
-  
-  <!-- Hacker-style animated typing intro -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=500&color=0FFF50&center=true&vCenter=true&width=700&lines=%F0%9F%94%A5+Ashish+Patil+%7C+Cybersecurity+Analyst;%F0%9F%92%BB+Red+Teaming+%26+VAPT+Specialist;%F0%9F%9B%A1%EF%B8%8F+Web+App+Penetration+Tester;%F0%9F%94%8D+Ethical+Hacker+%7C+Security+Researcher" alt="Typing SVG" />
-
-  <!-- Terminal-style tagline -->
-  <br>
-  <code>│ Red Team │ VAPT │ Web App Pentesting │ Offensive Security │ Python Automation │</code>
-  <br><br>
-
-  <!-- Profile visitor badge -->
-  <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&label=Hacker+Visits&color=0e75b6&style=flat" alt="Profile views" />
-  
-</div>
-
 
 <table>
 <tr>
@@ -124,11 +108,3 @@
 + ⚔️ Penetration Testing & Ethical Hacking
 + 🌐 Networking & Wireless Security
 + 🔗 Blockchain & Cryptocurrency Security
-
-### 🌐 **Network Security Configuration**  
-- Configured and secured enterprise network environments, implementing robust measures such as firewalls, VPNs, and intrusion detection systems (IDS).  
-- **🔧 Tools Used:** pfSense, Snort, Wireshark  
-
-
-
-
