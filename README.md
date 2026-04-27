@@ -1,4 +1,4 @@
-<!-- Matrix Banner -->
+<!-- Matrix Banner (no black, pure green on dark) -->
 <div align="center">
   <img src="https://media.giphy.com/media/l0HlBO7eyXz4S8CqY/giphy.gif" width="100%" height="200" />
 </div>
@@ -7,7 +7,7 @@
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=ASHISH+RAMLING+PATIL;Cybersecurity+Analyst;Red+Team+Operator;VAPT+Specialist;Web+Penetration+Tester;Offensive+Security+Engineer" alt="Typing SVG" />
 </h1>
 
-<!-- Contact & Badges -->
+<!-- Contact badges (no black anywhere) -->
 <p align="center">
   <a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
@@ -16,23 +16,26 @@
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&style=flat-square&color=00FF41" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&style=flat-square&color=00CC00" alt="Profile views" />
 </p>
 
 ---
 
-<!-- Google Material Icon + Professional Summary -->
+<!-- Professional Summary – icon in neon green -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/account_circle/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/account_circle/default/24px.svg?color=00FF41" width="28" style="vertical-align: middle;" />
   Professional Summary
 </h3>
 
-Cybersecurity professional specializing in **Offensive Security, Red Teaming, and Web Application Penetration Testing**. Hands-on experience in VAPT assessments, OWASP Top 10 testing, and security automation using Python. Published cybersecurity researcher with **CEH v13 (AI)** and **CompTIA Security+** certifications.
+Cybersecurity professional specializing in **Offensive Security, Red Teaming, and Web Application Penetration Testing**.  
+Hands-on experience in VAPT assessments, OWASP Top 10 testing, and security automation using Python.  
+Published cybersecurity researcher with **CEH v13 (AI)** and **CompTIA Security+** certifications.
 
 ---
 
+<!-- Certifications – icon in golden yellow -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/verified/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/verified/default/24px.svg?color=FFD700" width="28" style="vertical-align: middle;" />
   Certifications
 </h3>
 
@@ -45,12 +48,14 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 
 ---
 
+<!-- Technical Arsenal – icon in cyan -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/terminal/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/terminal/default/24px.svg?color=00FFFF" width="28" style="vertical-align: middle;" />
   Technical Arsenal
 </h3>
 
 **Penetration Testing:** Web App Pentesting, VAPT, Red Teaming, Network Security Scanning, OWASP Top 10  
+
 **Security Tools:**  
 ![](https://img.shields.io/badge/Burp_Suite-FF6F00?style=for-the-badge&logo=burpsuite&logoColor=white)
 ![](https://img.shields.io/badge/sqlmap-1B2B3A?style=for-the-badge&logo=sqlite&logoColor=white)
@@ -60,7 +65,7 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 ![](https://img.shields.io/badge/Nessus-00A3E0?style=for-the-badge&logo=tenable&logoColor=white)
 ![](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 ![](https://img.shields.io/badge/Hashcat-808080?style=for-the-badge&logo=hashcat&logoColor=white)
-![](https://img.shields.io/badge/John_the_Ripper-000000?style=for-the-badge&logo=johntheripper&logoColor=white)
+![](https://img.shields.io/badge/John_the_Ripper-A9A9A9?style=for-the-badge&logo=johntheripper&logoColor=white)   <!-- replaced black with silver -->
 
 **Programming & Scripting:**  
 ![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -72,15 +77,16 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 ![](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
 ![](https://img.shields.io/badge/Parrot_OS-33AADD?style=for-the-badge&logo=parrotsecurity&logoColor=white)
 ![](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![](https://img.shields.io/badge/MITRE_ATT%26CK-000000?style=for-the-badge&logo=mitre&logoColor=white)
+![](https://img.shields.io/badge/MITRE_ATT%26CK-002B5C?style=for-the-badge&logo=mitre&logoColor=white)   <!-- deep blue, no black -->
 ![](https://img.shields.io/badge/NIST_Cybersecurity_Framework-0052CC?style=for-the-badge&logo=nist&logoColor=white)
 
 **Security Operations:** SIEM, Log Analysis, Threat Detection, Digital Forensics, Incident Response
 
 ---
 
+<!-- Professional Experience – icon in orange -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/work/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/work/default/24px.svg?color=FF6600" width="28" style="vertical-align: middle;" />
   Professional Experience
 </h3>
 
@@ -101,8 +107,9 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 
 ---
 
+<!-- Education – icon in purple -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/school/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/school/default/24px.svg?color=9933FF" width="28" style="vertical-align: middle;" />
   Education
 </h3>
 
@@ -112,8 +119,9 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 
 ---
 
+<!-- Projects – icon in magenta -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/folder_open/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/folder_open/default/24px.svg?color=FF007F" width="28" style="vertical-align: middle;" />
   Key Projects
 </h3>
 
@@ -125,8 +133,9 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 
 ---
 
+<!-- Achievements – icon in gold -->
 <h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_events/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_events/default/24px.svg?color=FFD700" width="28" style="vertical-align: middle;" />
   Achievements & Publications
 </h3>
 
@@ -136,9 +145,9 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 
 ---
 
-<!-- GitHub Stats with hacker matrix theme -->
+<!-- GitHub Stats with hacker theme, no black borders -->
 <h3 align="center">
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/monitoring/default/24px.svg" width="28" style="vertical-align: middle;" />
+  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/monitoring/default/24px.svg?color=32CD32" width="28" style="vertical-align: middle;" />
   GitHub Ops Centre
 </h3>
 
@@ -153,7 +162,7 @@ Cybersecurity professional specializing in **Offensive Security, Red Teaming, an
 
 ---
 
-<!-- Final matrix touch -->
+<!-- Closing matrix touch (GIF) -->
 <div align="center">
   <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300" />
 </div>
