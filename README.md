@@ -1,12 +1,3 @@
-<!-- Professional Banner with name -->
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=200&section=header&text=Ashish%20Patil&fontSize=50&fontColor=ffffff" />
-</div>
-
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Ashish+Patil;Cybersecurity+Analyst;Red+Team+Operator;VAPT+Specialist;Web+Penetration+Tester;Offensive+Security+Engineer" alt="Typing SVG" />
-</h1>
-
 <!-- Contact badges – no black, professional colours -->
 <p align="center">
   <a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
