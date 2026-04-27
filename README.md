@@ -10,7 +10,7 @@
   <a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://github.com/ashishpatil7507"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://ashishpatil7507.github.io"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=aboutdotme&logoColor=white" /></a>
+  <a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=aboutdotme&logoColor=white" /></a>
 </p>
 
 <p align="center">
