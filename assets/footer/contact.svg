@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" width="1200" height="180">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient><style>.h{font:700 25px 'Segoe UI',Arial;fill:#f8fafc;letter-spacing:1px}.s{font:500 13px 'Segoe UI',Arial;fill:#94a3b8}.m{font:600 11px monospace;fill:#67e8f9}</style></defs>
+<rect width="1200" height="180" rx="20" fill="#070b16" stroke="#1e293b"/>
+<path d="M0 145C180 80 330 190 510 125S840 55 1200 125" fill="none" stroke="url(#g)" stroke-width="2"><animate attributeName="stroke-dashoffset" from="0" to="-260" dur="6s" repeatCount="indefinite"/></path>
+<circle cx="105" cy="65" r="25" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="8 7"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/></circle><circle cx="105" cy="65" r="7" fill="#22d3ee"><animate attributeName="opacity" values=".4;1;.4" dur="2s" repeatCount="indefinite"/></circle>
+<text x="155" y="62" class="h">LET'S BUILD BETTER SECURITY</text><text x="155" y="88" class="s">SOC engineering • detection • VAPT • security automation</text><text x="155" y="115" class="m">LINKEDIN / GITHUB / PORTFOLIO / EMAIL</text>
+<text x="1120" y="65" text-anchor="end" class="m">ASHISH PATIL</text><text x="1120" y="88" text-anchor="end" class="s">Security practitioner</text>
+</svg>

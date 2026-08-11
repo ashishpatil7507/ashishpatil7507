@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390">
+<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><style>.h{font:700 19px 'Segoe UI',Arial;fill:#f8fafc}.s{font:500 12px 'Segoe UI',Arial;fill:#94a3b8}.i{font:500 13px 'Segoe UI',Arial;fill:#dbeafe}.d{font:700 11px monospace;fill:#67e8f9}</style></defs>
+<rect width="1200" height="390" rx="20" fill="#070b16" stroke="#1e293b"/>
+<path d="M100 195H1100" stroke="#334155" stroke-width="3"/><path d="M100 195H1100" stroke="url(#g)" stroke-width="2" stroke-dasharray="8 16"><animate attributeName="stroke-dashoffset" from="0" to="-160" dur="5s" repeatCount="indefinite"/></path>
+<g fill="#0b1220" stroke="#334155"><rect x="55" y="50" width="315" height="110" rx="16"/><rect x="442" y="230" width="315" height="110" rx="16"/><rect x="830" y="50" width="315" height="110" rx="16"/></g>
+<g fill="#22d3ee"><circle cx="100" cy="195" r="7"><animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/></circle><circle cx="600" cy="195" r="7"><animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/><circle cx="1000" cy="195" r="7"/></circle></g>
+<text x="75" y="82" class="d">02 / 2026 — PRESENT</text><text x="75" y="108" class="h">INNOVER SYSTEMS PVT. LTD.</text><text x="75" y="132" class="s">Cybersecurity Analyst / Purple Team</text><text x="75" y="153" class="i">SOC • Wazuh • VAPT • Detection</text>
+<text x="462" y="262" class="d">07 / 2025 — 10 / 2025</text><text x="462" y="288" class="h">INLIGHTNX GLOBAL PVT. LTD.</text><text x="462" y="312" class="s">Offensive Security Intern</text><text x="462" y="333" class="i">Web security • Python • VAPT</text>
+<text x="850" y="82" class="d">02 / 2023 — 06 / 2023</text><text x="850" y="108" class="h">TECHNOHACKS EDUTECH</text><text x="850" y="132" class="s">Ethical Hacking Intern</text><text x="850" y="153" class="i">Recon • Network • Web Security</text>
+<text x="600" y="40" text-anchor="middle" class="s">SECURITY CAREER PATH</text>
+</svg>

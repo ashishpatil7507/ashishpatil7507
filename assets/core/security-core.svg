@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390">
+<defs>
+ <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#070b16"/><stop offset="1" stop-color="#0c1222"/></linearGradient>
+ <linearGradient id="line" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ <style>.h{font:700 21px 'Segoe UI',Arial;fill:#f8fafc;letter-spacing:1px}.s{font:500 12px 'Segoe UI',Arial;fill:#94a3b8}.i{font:500 14px 'Segoe UI',Arial;fill:#dbeafe}.c{fill:#22d3ee}</style>
+</defs>
+<rect width="1200" height="390" rx="20" fill="url(#bg)" stroke="#1e293b"/>
+<text x="600" y="42" text-anchor="middle" class="h">SECURITY CORE</text>
+<text x="600" y="63" text-anchor="middle" class="s">four operating layers that connect offensive testing with defensive visibility</text>
+<g stroke="#334155" fill="#080e1c">
+ <rect x="45" y="95" width="250" height="245" rx="16"/><rect x="325" y="95" width="250" height="245" rx="16"/><rect x="605" y="95" width="250" height="245" rx="16"/><rect x="885" y="95" width="270" height="245" rx="16"/>
+</g>
+<g stroke="url(#line)" stroke-width="2"><path d="M295 217H325"/><path d="M575 217H605"/><path d="M855 217H885"/></g>
+<g filter="url(#glow)"><circle cx="170" cy="118" r="4" class="c"/><circle cx="450" cy="118" r="4" class="c"/><circle cx="730" cy="118" r="4" class="c"/><circle cx="1020" cy="118" r="4" class="c"/></g>
+<text x="70" y="145" class="h">01 / VISIBILITY</text><text x="70" y="168" class="s">Telemetry &amp; context</text>
+<text x="70" y="202" class="i">• Wazuh SIEM/XDR</text><text x="70" y="230" class="i">• Sysmon endpoints</text><text x="70" y="258" class="i">• Firewall / syslog</text><text x="70" y="286" class="i">• OpenSearch data</text>
+<text x="350" y="145" class="h">02 / DETECTION</text><text x="350" y="168" class="s">Rules &amp; engineering</text>
+<text x="350" y="202" class="i">• Custom decoders</text><text x="350" y="230" class="i">• Detection rules</text><text x="350" y="258" class="i">• Alert tuning</text><text x="350" y="286" class="i">• Security dashboards</text>
+<text x="630" y="145" class="h">03 / OFFENSE</text><text x="630" y="168" class="s">Validate the attack surface</text>
+<text x="630" y="202" class="i">• OWASP Top 10</text><text x="630" y="230" class="i">• Web VAPT</text><text x="630" y="258" class="i">• Recon &amp; enumeration</text><text x="630" y="286" class="i">• Vulnerability validation</text>
+<text x="910" y="145" class="h">04 / RESPONSE</text><text x="910" y="168" class="s">Investigate &amp; improve</text>
+<text x="910" y="202" class="i">• Threat hunting</text><text x="910" y="230" class="i">• Investigation workflows</text><text x="910" y="258" class="i">• Security automation</text><text x="910" y="286" class="i">• Hardening feedback</text>
+<path d="M60 365H1140" stroke="url(#line)" stroke-width="1.5" stroke-dasharray="6 12"><animate attributeName="stroke-dashoffset" from="0" to="-180" dur="6s" repeatCount="indefinite"/></path>
+</svg>
