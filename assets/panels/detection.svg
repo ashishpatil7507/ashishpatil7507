@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="220" viewBox="0 0 520 220">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#00FF41"/><stop offset="1" stop-color="#00C7B7"/>
+  </linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+    <path d="M32 0H0V32" fill="none" stroke="#00C7B7" stroke-opacity=".12"/>
+  </pattern>
+</defs>
+<rect width="100%" height="100%" rx="22" fill="#050505"/>
+<rect width="100%" height="100%" rx="22" fill="url(#grid)"/>
+<rect x="3" y="3" width="514" height="214" rx="20" fill="none" stroke="url(#g)" stroke-width="2" opacity=".85"/>
+<g fill="none" stroke="url(#g)" stroke-width="2" opacity=".7">
+ <path d="M0 70H180L220 30H430"/><path d="M1200 190H1010L970 230H760"/>
+</g>
+<g stroke="#00FF41" stroke-width="2" opacity=".5">
+ <path d="M70 210H350"/><path d="M850 50H1130"/>
+</g>
+<circle cx="80" cy="70" r="7" fill="#00FF41" filter="url(#glow)">
+ <animate attributeName="opacity" values=".2;1;.2" dur="1.4s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1120" cy="190" r="7" fill="#00C7B7" filter="url(#glow)">
+ <animate attributeName="opacity" values="1;.2;1" dur="1.8s" repeatCount="indefinite"/>
+</circle>
+<text x="600" y="105" text-anchor="middle" fill="white" font-family="monospace" font-size="42" font-weight="700">DETECTION ENGINE</text>
+<text x="600" y="150" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="17" letter-spacing="4">RULES • DECODERS • SYSMON</text>
+<g opacity=".75">
+ <rect x="410" y="185" width="380" height="3" fill="url(#g)">
+   <animate attributeName="x" values="410;790;410" dur="3s" repeatCount="indefinite"/>
+ </rect>
+</g>
+</svg>

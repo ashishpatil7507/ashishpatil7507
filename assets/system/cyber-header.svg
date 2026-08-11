@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="320" viewBox="0 0 1400 320">
+<defs><linearGradient id="g"><stop stop-color="#00FF41"/><stop offset=".5" stop-color="#00C7B7"/><stop offset="1" stop-color="#050505"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter><pattern id="p" width="45" height="45" patternUnits="userSpaceOnUse"><path d="M45 0H0V45" fill="none" stroke="#00C7B7" opacity=".11"/></pattern></defs>
+<rect width="1400" height="320" fill="#030505"/><rect width="1400" height="320" fill="url(#p)"/>
+<path d="M0 250 C220 180 260 315 500 230 S820 130 1050 220 S1230 280 1400 160" fill="none" stroke="url(#g)" stroke-width="3" filter="url(#gl)"/>
+<path d="M0 275 C220 205 270 335 510 250 S820 150 1050 240 S1240 300 1400 180" fill="none" stroke="#00FF41" stroke-opacity=".25" stroke-width="2"/>
+<g fill="#00FF41" filter="url(#gl)"><circle cx="190" cy="235" r="5"><animate attributeName="cy" values="235;215;235" dur="1.7s" repeatCount="indefinite"/></circle><circle cx="780" cy="170" r="5"><animate attributeName="cy" values="170;190;170" dur="2.1s" repeatCount="indefinite"/></circle><circle cx="1180" cy="235" r="5"><animate attributeName="cy" values="235;210;235" dur="1.4s" repeatCount="indefinite"/></circle></g>
+<text x="700" y="120" text-anchor="middle" fill="white" font-family="monospace" font-size="68" font-weight="700" letter-spacing="8">ASHISH PATIL</text>
+<text x="700" y="165" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="20" letter-spacing="6">CYBER COMMAND CENTER</text>
+<text x="700" y="205" text-anchor="middle" fill="#00C7B7" font-family="monospace" font-size="14" letter-spacing="3">SOC // VAPT // DETECTION // THREAT HUNTING</text>
+</svg>
