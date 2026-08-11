@@ -4,22 +4,22 @@
 
 <br>
 
-<a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://github.com/ashishpatil7507"><img src="https://img.shields.io/badge/GitHub-Profile-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/Portfolio-Explore-00A6A6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
-
 
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=21&pause=1200&color=22D3EE&center=true&vCenter=true&width=920&lines=CYBERSECURITY+ANALYST;SOC+%7C+SIEM%2FXDR+%7C+DETECTION+ENGINEERING;WEB+APPLICATION+SECURITY+%7C+VAPT;THREAT+HUNTING+%7C+SECURITY+AUTOMATION" alt="Animated cybersecurity focus"/>
 
 <br>
 
+<a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+<a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+<a href="https://github.com/ashishpatil7507"><img src="https://img.shields.io/badge/GitHub-Profile-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/Portfolio-Explore-00A6A6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
+
 <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&style=flat-square&color=22D3EE&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
 
----
+
 
 <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
