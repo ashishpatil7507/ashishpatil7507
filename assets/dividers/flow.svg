@@ -1,1 +1,62 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 34" width="1200" height="34"><defs><linearGradient id="g"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient></defs><path d="M0 17H1200" stroke="#1e293b"/><path d="M0 17H1200" stroke="url(#g)" stroke-width="2" stroke-dasharray="80 40"><animate attributeName="stroke-dashoffset" from="0" to="-240" dur="5s" repeatCount="indefinite"/></path><circle cx="600" cy="17" r="4" fill="#22d3ee"><animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/></circle></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40">
+<defs>
+  <!-- Data Stream Gradient -->
+  <linearGradient id="glowLine" x1="0" x2="1">
+    <stop stop-color="#22d3ee" stop-opacity="0"/>
+    <stop offset="0.3" stop-color="#22d3ee"/>
+    <stop offset="0.5" stop-color="#8b5cf6"/>
+    <stop offset="0.7" stop-color="#22d3ee"/>
+    <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+  </linearGradient>
+
+  <!-- Core Neon Filter -->
+  <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+
+<!-- Static Base Track -->
+<path d="M0 20H1200" stroke="#0f172a" stroke-width="3"/>
+<path d="M0 20H1200" stroke="#1e293b" stroke-width="1" stroke-dasharray="2 6"/>
+
+<!-- Left-to-Center Data Flow -->
+<path d="M 0 20 L 600 20" stroke="url(#glowLine)" stroke-width="2" stroke-dasharray="60 180">
+  <animate attributeName="stroke-dashoffset" from="240" to="0" dur="2.5s" repeatCount="indefinite"/>
+</path>
+
+<!-- Right-to-Center Data Flow -->
+<path d="M 1200 20 L 600 20" stroke="url(#glowLine)" stroke-width="2" stroke-dasharray="60 180">
+  <animate attributeName="stroke-dashoffset" from="240" to="0" dur="2.5s" repeatCount="indefinite"/>
+</path>
+
+<!-- Central Cryptographic Node Assembly -->
+<g transform="translate(600, 20)">
+  
+  <!-- Outer Tactical Brackets -->
+  <path d="M -28 -10 L -34 -10 L -34 10 L -28 10" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.6"/>
+  <path d="M 28 -10 L 34 -10 L 34 10 L 28 10" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- Counter-Clockwise Outer Diamond -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="8s" repeatCount="indefinite"/>
+    <polygon points="0,-14 14,0 0,14 -14,0" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="10 4"/>
+  </g>
+
+  <!-- Clockwise Inner Diamond -->
+  <g>
+    <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+    <polygon points="0,-8 8,0 0,8 -8,0" fill="none" stroke="#22d3ee" stroke-width="1"/>
+  </g>
+
+  <!-- Pulsing Data Core -->
+  <circle r="3" fill="#ffffff" filter="url(#neon)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- Terminal Micro-Text -->
+<text x="550" y="24" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#475569" text-anchor="end" letter-spacing="2">SEC_LINK</text>
+<text x="650" y="24" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#475569" text-anchor="start" letter-spacing="2">ACTIVE_</text>
+
+</svg>
