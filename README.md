@@ -20,9 +20,7 @@
 </div>
 
 
-
-<div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
-
+c
 ## Security Profile
 
 > **Cybersecurity Analyst focused on connecting offensive security with defensive engineering — from finding weaknesses to building the visibility and detections needed to understand them.**
@@ -31,13 +29,15 @@ My current focus spans **SOC operations, Wazuh SIEM/XDR, detection engineering, 
 
 <div align="center"><img src="./assets/core/security-core.svg" width="100%" alt="Security core capability infographic"/></div>
 
----
+
+<div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Capability Matrix
 
 <div align="center"><img src="./assets/work/capability-matrix.svg" width="100%" alt="Cybersecurity capability matrix"/></div>
 
----
+
+<div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Selected Work
 
@@ -106,7 +106,9 @@ My current focus spans **SOC operations, Wazuh SIEM/XDR, detection engineering, 
 </tr>
 </table>
 
----
+
+<div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
+
 
 <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
@@ -135,7 +137,7 @@ Performed web application security testing, vulnerability validation and Python-
 
 Worked on network reconnaissance, scanning and practical web-security testing.
 
----
+ <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Security Arsenal
 
@@ -162,7 +164,7 @@ Worked on network reconnaissance, scanning and practical web-security testing.
 
 </div>
 
----
+ <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Credentials & Research
 
@@ -173,7 +175,7 @@ Worked on network reconnaissance, scanning and practical web-security testing.
 - **Cybersecurity & Digital Forensics Honors**
 - **IJREAM published research — WebRTC Security Analysis**
 
----
+ <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## GitHub Telemetry
 
@@ -192,7 +194,7 @@ Worked on network reconnaissance, scanning and practical web-security testing.
 
 </div>
 
----
+ <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Security Operating Model
 
@@ -217,7 +219,7 @@ HARDENING
 
 </div>
 
----
+ <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Contact
 
