@@ -1,10 +1,175 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300">
-<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient><style>.h{font:700 20px 'Segoe UI',Arial;fill:#f8fafc}.s{font:500 12px 'Segoe UI',Arial;fill:#94a3b8}.i{font:500 13px 'Segoe UI',Arial;fill:#dbeafe}</style></defs>
-<rect width="1200" height="300" rx="20" fill="#070b16" stroke="#1e293b"/>
-<g fill="#0b1220" stroke="#334155"><rect x="35" y="35" width="270" height="230" rx="16"/><rect x="325" y="35" width="270" height="230" rx="16"/><rect x="615" y="35" width="270" height="230" rx="16"/><rect x="905" y="35" width="260" height="230" rx="16"/></g>
-<g stroke="url(#g)" stroke-width="3"><path d="M55 55H130"/><path d="M345 55H420"/><path d="M635 55H710"/><path d="M925 55H1000"/></g>
-<text x="58" y="92" class="h">SOC ENGINEERING</text><text x="58" y="114" class="s">Monitor • detect • investigate</text><text x="58" y="150" class="i">Wazuh / Sysmon</text><text x="58" y="176" class="i">Rules / decoders</text><text x="58" y="202" class="i">Dashboards / alert tuning</text><text x="58" y="228" class="i">Firewall telemetry</text>
-<text x="348" y="92" class="h">WEB VAPT</text><text x="348" y="114" class="s">Assess • validate • report</text><text x="348" y="150" class="i">OWASP Top 10</text><text x="348" y="176" class="i">SQLi / XSS / IDOR</text><text x="348" y="202" class="i">AuthN / AuthZ testing</text><text x="348" y="228" class="i">Recon / attack surface</text>
-<text x="638" y="92" class="h">AUTOMATION</text><text x="638" y="114" class="s">Reduce analyst friction</text><text x="638" y="150" class="i">Python security tooling</text><text x="638" y="176" class="i">PowerShell / Bash</text><text x="638" y="202" class="i">Log processing</text><text x="638" y="228" class="i">Reporting workflows</text>
-<text x="928" y="92" class="h">INFRASTRUCTURE</text><text x="928" y="114" class="s">Run security at scale</text><text x="928" y="150" class="i">AWS / EC2 / Linux</text><text x="928" y="176" class="i">SIEM operations</text><text x="928" y="202" class="i">Telemetry pipelines</text><text x="928" y="228" class="i">Operational troubleshooting</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330">
+<defs>
+    <!-- Core Background Gradients -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030612"/><stop offset=".5" stop-color="#0a1122"/><stop offset="1" stop-color="#030612"/></linearGradient>
+    <linearGradient id="flow" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".2" stop-color="#22d3ee" stop-opacity=".9"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset=".8" stop-color="#ec4899" stop-opacity=".8"/><stop offset="1" stop-color="#ec4899" stop-opacity="0"/><animateTransform attributeName="gradientTransform" type="translate" values="-450 0;450 0;-450 0" dur="7s" repeatCount="indefinite"/></linearGradient>
+    
+    <!-- Box Trace Gradients -->
+    <linearGradient id="trace1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+    <linearGradient id="trace2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient>
+    <linearGradient id="trace3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ec4899"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+
+    <!-- Radar & Glow Effects -->
+    <radialGradient id="halo"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset=".5" stop-color="#8b5cf6" stop-opacity=".05"/><stop offset="1" stop-color="#030612" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#38bdf8" stroke-opacity=".04"/></pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="3.5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="15" flood-color="#000" flood-opacity=".6"/></filter>
+
+    <style>
+        .h { font: 800 18px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 1px; }
+        .s { font: 600 11px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; letter-spacing: 1px; text-transform: uppercase; }
+        .i { font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #dbeafe; }
+        .tag { font: 700 10px 'JetBrains Mono', monospace; fill: #67e8f9; letter-spacing: 1.5px; }
+        .num { font: 700 10px 'JetBrains Mono', monospace; fill: #475569; letter-spacing: 2px; }
+    </style>
+</defs>
+
+<!-- Background Base -->
+<rect width="1200" height="330" rx="22" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="328" rx="21" fill="url(#grid)" stroke="#1e293b" stroke-width="2"/>
+<circle cx="600" cy="40" r="220" fill="url(#halo)"><animate attributeName="r" values="180;240;180" dur="8s" repeatCount="indefinite"/></circle>
+
+<!-- Animated Background Scanning Line -->
+<rect x="30" y="120" width="1140" height="2" fill="url(#flow)" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="y" values="120;298;120" dur="6s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Top Header Data Flow Line -->
+<path d="M55 35H1145" stroke="#1e293b" stroke-width="1.5"/>
+<path d="M55 35H1145" stroke="url(#flow)" stroke-width="2.5" filter="url(#glow)" stroke-dasharray="90 35"><animate attributeName="stroke-dashoffset" from="0" to="-250" dur="4s" repeatCount="indefinite"/></path>
+
+<!-- Central Crypto Header Node -->
+<g transform="translate(600 47)" filter="url(#glow)">
+    <circle r="22" fill="#07111f" stroke="#334155" stroke-width="1.5"/>
+    <circle r="15" fill="none" stroke="#22d3ee" stroke-width="2" stroke-dasharray="20 10 5 10">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="10" fill="none" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="15 5">
+        <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="3" fill="#ffffff">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+    </circle>
+</g>
+
+<!-- Header Titles -->
+<text x="600" y="90" text-anchor="middle" class="h">SECURITY CAPABILITY MATRIX</text>
+<text x="600" y="108" text-anchor="middle" class="s">VISIBILITY  •  OFFENSE  •  AUTOMATION  •  INFRASTRUCTURE</text>
+
+<!-- Intersecting Line Above Cards -->
+<path d="M105 145H1095" stroke="#1e293b" stroke-width="1.5"/>
+<path d="M105 145H1095" stroke="url(#flow)" stroke-width="2" opacity=".7" stroke-dasharray="25 65">
+    <animate attributeName="stroke-dashoffset" from="0" to="-180" dur="5s" repeatCount="indefinite"/>
+</path>
+
+<!-- ============================================== -->
+<!-- CARD 1: SOC ENGINEERING                        -->
+<!-- ============================================== -->
+<g transform="translate(32 120)">
+    <!-- Base & Shadow -->
+    <rect width="272" height="178" rx="16" fill="#0a1220" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+    <!-- Animated Box Perimeter Trace (Perimeter is approx 900px) -->
+    <rect width="272" height="178" rx="16" fill="none" stroke="url(#trace1)" stroke-width="2" stroke-dasharray="120 780" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" from="900" to="0" dur="5s" repeatCount="indefinite"/>
+    </rect>
+    
+    <!-- Content -->
+    <text x="20" y="32" class="tag">01 // DEFENSIVE OPS</text>
+    <text x="20" y="58" class="h">SOC ENGINEERING</text>
+    <text x="20" y="77" class="s">Monitor • Detect • Investigate</text>
+    <path d="M20 90H252" stroke="#334155" stroke-dasharray="2 4"/>
+    
+    <circle cx="24" cy="110" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/></circle>
+    <text x="36" y="114" class="i">Wazuh SIEM/XDR Arch</text>
+    
+    <circle cx="24" cy="133" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
+    <text x="36" y="137" class="i">Sysmon &amp; Custom Rules</text>
+    
+    <circle cx="24" cy="156" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1s" repeatCount="indefinite"/></circle>
+    <text x="36" y="160" class="i">MITRE ATT&amp;CK Mapping</text>
+</g>
+
+<!-- ============================================== -->
+<!-- CARD 2: OFFENSIVE SECURITY                     -->
+<!-- ============================================== -->
+<g transform="translate(318 120)">
+    <rect width="272" height="178" rx="16" fill="#0a1220" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="272" height="178" rx="16" fill="none" stroke="url(#trace2)" stroke-width="2" stroke-dasharray="120 780" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" from="900" to="0" dur="5s" begin="-1.25s" repeatCount="indefinite"/>
+    </rect>
+    
+    <text x="20" y="32" class="tag" fill="#8b5cf6">02 // OFFENSIVE SEC</text>
+    <text x="20" y="58" class="h">WEB APP VAPT</text>
+    <text x="20" y="77" class="s">Assess • Exploit • Validate</text>
+    <path d="M20 90H252" stroke="#334155" stroke-dasharray="2 4"/>
+    
+    <circle cx="24" cy="110" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.2s" repeatCount="indefinite"/></circle>
+    <text x="36" y="114" class="i">OWASP Top 10 VAPT</text>
+    
+    <circle cx="24" cy="133" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.7s" repeatCount="indefinite"/></circle>
+    <text x="36" y="137" class="i">Burp Suite &amp; Nmap</text>
+    
+    <circle cx="24" cy="156" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.2s" repeatCount="indefinite"/></circle>
+    <text x="36" y="160" class="i">SQLi / XSS / IDOR Audits</text>
+</g>
+
+<!-- ============================================== -->
+<!-- CARD 3: AUTOMATION                             -->
+<!-- ============================================== -->
+<g transform="translate(604 120)">
+    <rect width="272" height="178" rx="16" fill="#0a1220" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="272" height="178" rx="16" fill="none" stroke="url(#trace3)" stroke-width="2" stroke-dasharray="120 780" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" from="900" to="0" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+    </rect>
+    
+    <text x="20" y="32" class="tag" fill="#ec4899">03 // SEC ENGINEERING</text>
+    <text x="20" y="58" class="h">AUTOMATION</text>
+    <text x="20" y="77" class="s">Script • Optimize • Scale</text>
+    <path d="M20 90H252" stroke="#334155" stroke-dasharray="2 4"/>
+    
+    <circle cx="24" cy="110" r="3.5" fill="#ec4899"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+    <text x="36" y="114" class="i">Python Sec Tooling</text>
+    
+    <circle cx="24" cy="133" r="3.5" fill="#ec4899"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.9s" repeatCount="indefinite"/></circle>
+    <text x="36" y="137" class="i">PDF Malware Analysis</text>
+    
+    <circle cx="24" cy="156" r="3.5" fill="#ec4899"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.4s" repeatCount="indefinite"/></circle>
+    <text x="36" y="160" class="i">PowerShell &amp; Bash Scripts</text>
+</g>
+
+<!-- ============================================== -->
+<!-- CARD 4: CLOUD & INFRASTRUCTURE                 -->
+<!-- ============================================== -->
+<g transform="translate(890 120)">
+    <rect width="278" height="178" rx="16" fill="#0a1220" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="278" height="178" rx="16" fill="none" stroke="url(#trace1)" stroke-width="2" stroke-dasharray="120 792" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" from="912" to="0" dur="5s" begin="-3.75s" repeatCount="indefinite"/>
+    </rect>
+    
+    <text x="20" y="32" class="tag">04 // SEC INFRASTRUCTURE</text>
+    <text x="20" y="58" class="h">CLOUD &amp; OPERATIONS</text>
+    <text x="20" y="77" class="s">Defend • Hardening • IR</text>
+    <path d="M20 90H258" stroke="#334155" stroke-dasharray="2 4"/>
+    
+    <circle cx="24" cy="110" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="0.6s" repeatCount="indefinite"/></circle>
+    <text x="36" y="114" class="i">AWS EC2 Environments</text>
+    
+    <circle cx="24" cy="133" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.1s" repeatCount="indefinite"/></circle>
+    <text x="36" y="137" class="i">Govt. Smart City ICCC</text>
+    
+    <circle cx="24" cy="156" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.3;1;0.3" dur="2s" begin="1.6s" repeatCount="indefinite"/></circle>
+    <text x="36" y="160" class="i">Incident Response Ops</text>
+</g>
+
+<!-- Footer Tags / Node Indicators -->
+<g class="num">
+    <text x="32" y="318">DEFENSE</text>
+    <text x="318" y="318">OFFENSE</text>
+    <text x="604" y="318">AUTOMATION</text>
+    <text x="890" y="318">INFRASTRUCTURE</text>
+</g>
+<circle cx="1155" cy="314" r="4" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="opacity" values=".2;1;.2" dur="1.5s" repeatCount="indefinite"/>
+</circle>
+
 </svg>
