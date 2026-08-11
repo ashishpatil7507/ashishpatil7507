@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="70" viewBox="0 0 1400 70">
+<defs><linearGradient id="g"><stop stop-color="#00FF41"/><stop offset=".5" stop-color="#00C7B7"/><stop offset="1" stop-color="#00FF41"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1400" height="70" fill="#0D1117"/>
+<path d="M0 35H220L250 18H470L500 52H720L750 28H980L1010 45H1400" fill="none" stroke="url(#g)" stroke-width="2" opacity=".8"/>
+<circle cy="35" r="4" fill="#00FF41" filter="url(#glow)">
+<animate attributeName="cx" values="0;1400;0" dur="4.5s" repeatCount="indefinite"/>
+</circle>
+</svg>
