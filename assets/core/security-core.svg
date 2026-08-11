@@ -1,183 +1,170 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390">
 <defs>
-    <!-- Deep Cyber Gradients -->
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
-    <linearGradient id="scanLine" x1="0" x2="1"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee" stop-opacity="0.8"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
-    <linearGradient id="scanLinePurple" x1="0" x2="1"><stop stop-color="#8b5cf6" stop-opacity="0"/><stop offset=".5" stop-color="#8b5cf6" stop-opacity="0.8"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>
-    <linearGradient id="packet" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+  <!-- Background & Core Gradients -->
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030612"/><stop offset="1" stop-color="#0a101d"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+  <linearGradient id="flow" x1="0" x2="1"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity="1"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>
+  
+  <!-- Border Trace Gradients -->
+  <linearGradient id="traceCyan" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#080e1c" stop-opacity="0"/></linearGradient>
+  <linearGradient id="tracePurple" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#080e1c" stop-opacity="0"/></linearGradient>
 
-    <!-- Filters & Glows -->
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-        <feGaussianBlur stdDeviation="4" result="blur"/>
-        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/></filter>
+  <!-- Ambient Grid (Animated Panning) -->
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse" patternTransform="translate(0,0)">
+    <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="32 32" dur="10s" repeatCount="indefinite"/>
+    <path d="M32 0H0V32" fill="none" stroke="#38bdf8" stroke-opacity=".04"/>
+  </pattern>
 
-    <!-- Card Clipping Paths for the Internal Scanners -->
-    <clipPath id="clip1"><rect x="45" y="95" width="250" height="245" rx="16"/></clipPath>
-    <clipPath id="clip2"><rect x="325" y="95" width="250" height="245" rx="16"/></clipPath>
-    <clipPath id="clip3"><rect x="605" y="95" width="250" height="245" rx="16"/></clipPath>
-    <clipPath id="clip4"><rect x="885" y="95" width="270" height="245" rx="16"/></clipPath>
+  <!-- Hardware Glow Filters -->
+  <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur stdDeviation="3.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+    <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity=".6"/>
+  </filter>
 
-    <style>
-        .title { font: 800 24px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
-        .subtitle { font: 600 12px 'JetBrains Mono', monospace; fill: #94a3b8; letter-spacing: 1px; }
-        .h { font: 700 19px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 1px; }
-        .s { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; }
-        .i { font: 500 13.5px 'Segoe UI', Arial, sans-serif; fill: #cbd5e1; }
-        .bullet { fill: #22d3ee; }
-    </style>
+  <style>
+    .title { font: 800 22px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
+    .sub { font: 600 11px 'JetBrains Mono', monospace; fill: #64748b; letter-spacing: 2px; }
+    .h { font: 750 18px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 1px; }
+    .s { font: 600 11.5px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; text-transform: uppercase; letter-spacing: 0.5px;}
+    .i { font: 500 13.5px 'Segoe UI', Arial, sans-serif; fill: #cbd5e1; }
+  </style>
 </defs>
 
-<!-- Main Background -->
+<!-- Base Canvas -->
 <rect width="1200" height="390" rx="22" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+<rect width="1200" height="390" rx="22" fill="url(#grid)"/>
 
-<!-- Header Typography -->
-<text x="600" y="45" text-anchor="middle" class="title">SECURITY OPERATIONS ARCHITECTURE</text>
-<text x="600" y="68" text-anchor="middle" class="subtitle">ENTERPRISE TELEMETRY // DETECTION ENGINEERING // OFFENSIVE VALIDATION</text>
+<!-- Top Header Architecture -->
+<text x="600" y="46" text-anchor="middle" class="title">SECURITY OPERATIONS ARCHITECTURE</text>
+<text x="600" y="68" text-anchor="middle" class="sub">VISIBILITY  ·  DETECTION  ·  OFFENSE  ·  RESPONSE</text>
+<path d="M90 85H1110" stroke="#1e293b" stroke-width="1.5"/>
+<path d="M90 85H1110" stroke="url(#accent)" stroke-width="2" stroke-dasharray="80 200" opacity="0.8">
+  <animate attributeName="stroke-dashoffset" from="280" to="0" dur="4s" repeatCount="indefinite"/>
+</path>
 
-<!-- Inter-module Static Connection Lines -->
-<g stroke="#1e293b" stroke-width="3">
-    <path d="M295 217H325"/>
-    <path d="M575 217H605"/>
-    <path d="M855 217H885"/>
+<!-- Data Link Connectors (Background) -->
+<g stroke="#1e293b" stroke-width="2">
+ <path d="M295 212.5H325"/><path d="M575 212.5H605"/><path d="M855 212.5H885"/>
+</g>
+<!-- Animated Data Packets Flowing Between Cards -->
+<g stroke="url(#flow)" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+ <path d="M295 212.5H325" stroke-dasharray="10 30"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" repeatCount="indefinite"/></path>
+ <path d="M575 212.5H605" stroke-dasharray="10 30"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" begin="0.4s" repeatCount="indefinite"/></path>
+ <path d="M855 212.5H885" stroke-dasharray="10 30"><animate attributeName="stroke-dashoffset" from="40" to="0" dur="1.2s" begin="0.8s" repeatCount="indefinite"/></path>
 </g>
 
-<!-- Animated Data Packets (Flowing between modules) -->
+<!-- ========================================== -->
+<!-- BASE CARDS (SHADOWS & BACKGROUNDS)         -->
+<!-- ========================================== -->
+<g filter="url(#shadow)">
+ <rect x="45" y="105" width="250" height="225" rx="16" fill="#080e1c" stroke="#1e293b" stroke-width="1.5"/>
+ <rect x="325" y="105" width="250" height="225" rx="16" fill="#080e1c" stroke="#1e293b" stroke-width="1.5"/>
+ <rect x="605" y="105" width="250" height="225" rx="16" fill="#080e1c" stroke="#1e293b" stroke-width="1.5"/>
+ <rect x="885" y="105" width="270" height="225" rx="16" fill="#080e1c" stroke="#1e293b" stroke-width="1.5"/>
+</g>
+
+<!-- ========================================== -->
+<!-- ANIMATED CARD PERIMETER TRACES             -->
+<!-- ========================================== -->
+<g fill="none" stroke-width="2">
+  <!-- Card 1 Trace -->
+  <rect x="45" y="105" width="250" height="225" rx="16" stroke="url(#traceCyan)" stroke-dasharray="120 830">
+    <animate attributeName="stroke-dashoffset" from="950" to="0" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Card 2 Trace -->
+  <rect x="325" y="105" width="250" height="225" rx="16" stroke="url(#tracePurple)" stroke-dasharray="120 830">
+    <animate attributeName="stroke-dashoffset" from="950" to="0" dur="5s" begin="-1.25s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Card 3 Trace -->
+  <rect x="605" y="105" width="250" height="225" rx="16" stroke="url(#traceCyan)" stroke-dasharray="120 830">
+    <animate attributeName="stroke-dashoffset" from="950" to="0" dur="5s" begin="-2.5s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Card 4 Trace -->
+  <rect x="885" y="105" width="270" height="225" rx="16" stroke="url(#tracePurple)" stroke-dasharray="120 870">
+    <animate attributeName="stroke-dashoffset" from="990" to="0" dur="5s" begin="-3.75s" repeatCount="indefinite"/>
+  </rect>
+</g>
+
+<!-- Top Scanner Rails on Cards -->
+<g stroke="url(#accent)" stroke-width="3" stroke-linecap="round" filter="url(#glow)">
+ <path d="M65 125H125" stroke-dasharray="35 30"><animate attributeName="stroke-dashoffset" from="65" to="0" dur="3s" repeatCount="indefinite"/></path>
+ <path d="M345 125H405" stroke-dasharray="35 30"><animate attributeName="stroke-dashoffset" from="65" to="0" dur="3.5s" repeatCount="indefinite"/></path>
+ <path d="M625 125H685" stroke-dasharray="35 30"><animate attributeName="stroke-dashoffset" from="65" to="0" dur="4s" repeatCount="indefinite"/></path>
+ <path d="M905 125H965" stroke-dasharray="35 30"><animate attributeName="stroke-dashoffset" from="65" to="0" dur="3.2s" repeatCount="indefinite"/></path>
+</g>
+
+<!-- ========================================== -->
+<!-- CARD CONTENT & TYPOGRAPHY                  -->
+<!-- ========================================== -->
+
+<!-- Card 1: VISIBILITY -->
+<text x="70" y="155" class="h">01 / VISIBILITY</text>
+<text x="70" y="176" class="s">Enterprise Telemetry</text>
+<circle cx="75" cy="203" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/></circle>
+<text x="88" y="208" class="i">Wazuh SIEM/XDR on AWS</text>
+<circle cx="75" cy="232" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.5s" repeatCount="indefinite"/></circle>
+<text x="88" y="237" class="i">Sysmon &amp; Event Logging</text>
+<circle cx="75" cy="261" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="1s" repeatCount="indefinite"/></circle>
+<text x="88" y="266" class="i">File Integrity Monitoring</text>
+<circle cx="75" cy="290" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="1.5s" repeatCount="indefinite"/></circle>
+<text x="88" y="295" class="i">Govt. ICCC Deployments</text>
+
+<!-- Card 2: DETECTION -->
+<text x="350" y="155" class="h">02 / DETECTION</text>
+<text x="350" y="176" class="s">Detection Engineering</text>
+<circle cx="355" cy="203" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" repeatCount="indefinite"/></circle>
+<text x="368" y="208" class="i">Custom Rules &amp; Decoders</text>
+<circle cx="355" cy="232" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" begin="0.6s" repeatCount="indefinite"/></circle>
+<text x="368" y="237" class="i">INNO SOC Dashboards</text>
+<circle cx="355" cy="261" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" begin="1.2s" repeatCount="indefinite"/></circle>
+<text x="368" y="266" class="i">Sysmon Config Tuning</text>
+<circle cx="355" cy="290" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.5s" begin="1.8s" repeatCount="indefinite"/></circle>
+<text x="368" y="295" class="i">MITRE ATT&amp;CK Mapping</text>
+
+<!-- Card 3: OFFENSE -->
+<text x="630" y="155" class="h">03 / OFFENSE</text>
+<text x="630" y="176" class="s">Validate &amp; Penetrate</text>
+<circle cx="635" cy="203" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" repeatCount="indefinite"/></circle>
+<text x="648" y="208" class="i">Web Application VAPT</text>
+<circle cx="635" cy="232" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" begin="0.5s" repeatCount="indefinite"/></circle>
+<text x="648" y="237" class="i">OWASP Top 10 Audits</text>
+<circle cx="635" cy="261" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" begin="1s" repeatCount="indefinite"/></circle>
+<text x="648" y="266" class="i">Burp Suite / Nmap / ZAP</text>
+<circle cx="635" cy="290" r="3.5" fill="#22d3ee"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.2s" begin="1.5s" repeatCount="indefinite"/></circle>
+<text x="648" y="295" class="i">SQLMap &amp; Metasploit</text>
+
+<!-- Card 4: RESPONSE -->
+<text x="910" y="155" class="h">04 / RESPONSE</text>
+<text x="910" y="176" class="s">Investigate &amp; Harden</text>
+<circle cx="915" cy="203" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" repeatCount="indefinite"/></circle>
+<text x="928" y="208" class="i">Python Security Automation</text>
+<circle cx="915" cy="232" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" begin="0.7s" repeatCount="indefinite"/></circle>
+<text x="928" y="237" class="i">Incident Response Playbooks</text>
+<circle cx="915" cy="261" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" begin="1.4s" repeatCount="indefinite"/></circle>
+<text x="928" y="266" class="i">False Positive Optimization</text>
+<circle cx="915" cy="290" r="3.5" fill="#8b5cf6"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.8s" begin="2.1s" repeatCount="indefinite"/></circle>
+<text x="928" y="295" class="i">Threat Analysis Reporting</text>
+
+<!-- ========================================== -->
+<!-- CONTINUOUS LOOP FOOTER                     -->
+<!-- ========================================== -->
+<!-- Background Rail -->
+<path d="M70 355H1130" stroke="#1e293b" stroke-width="2"/>
+<!-- Animated Scanning Pulse on Rail -->
+<path d="M70 355H1130" stroke="url(#flow)" stroke-width="3" stroke-dasharray="20 200" opacity="0.9" filter="url(#glow)">
+ <animate attributeName="stroke-dashoffset" from="220" to="0" dur="2.5s" repeatCount="indefinite"/>
+</path>
+
+<!-- Sync Nodes on the Bottom Line -->
 <g filter="url(#glow)">
-    <!-- Packet 1: Vis -> Det -->
-    <rect x="295" y="215" width="12" height="4" rx="2" fill="url(#packet)">
-        <animate attributeName="x" values="295;313;295" dur="1.5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
-    </rect>
-    <!-- Packet 2: Det -> Off -->
-    <rect x="575" y="215" width="12" height="4" rx="2" fill="url(#packet)">
-        <animate attributeName="x" values="575;593;575" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
-    </rect>
-    <!-- Packet 3: Off -> Res -->
-    <rect x="855" y="215" width="12" height="4" rx="2" fill="url(#packet)">
-        <animate attributeName="x" values="855;873;855" dur="1.5s" begin="1s" repeatCount="indefinite"/>
-        <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="1s" repeatCount="indefinite"/>
-    </rect>
+ <circle cx="270" cy="355" r="4" fill="#22d3ee"><animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/></circle>
+ <circle cx="550" cy="355" r="4" fill="#8b5cf6"><animate attributeName="r" values="3;6;3" dur="2s" begin="0.4s" repeatCount="indefinite"/></circle>
+ <circle cx="830" cy="355" r="4" fill="#22d3ee"><animate attributeName="r" values="3;6;3" dur="2s" begin="0.8s" repeatCount="indefinite"/></circle>
 </g>
 
-<!-- ========================================== -->
-<!-- MODULE 1: VISIBILITY                       -->
-<!-- ========================================== -->
-<g filter="url(#shadow)">
-    <!-- Card Base -->
-    <rect x="45" y="95" width="250" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
-    <!-- Animated Vertical Sensor Scan -->
-    <g clip-path="url(#clip1)">
-        <rect x="45" y="95" width="250" height="4" fill="url(#scanLine)" filter="url(#glow)">
-            <animate attributeName="y" values="95;340;95" dur="4s" repeatCount="indefinite"/>
-        </rect>
-    </g>
-    
-    <!-- Top Indicator Light -->
-    <circle cx="170" cy="118" r="4" fill="#22d3ee" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    
-    <!-- Content -->
-    <text x="70" y="145" class="h">01 / VISIBILITY</text>
-    <text x="70" y="168" class="s">Enterprise Telemetry</text>
-    
-    <circle cx="75" cy="197" r="3" class="bullet"/> <text x="88" y="202" class="i">Wazuh SIEM/XDR on AWS</text>
-    <circle cx="75" cy="225" r="3" class="bullet"/> <text x="88" y="230" class="i">Multi-Agent Deployment</text>
-    <circle cx="75" cy="253" r="3" class="bullet"/> <text x="88" y="258" class="i">Sysmon &amp; Event Logs</text>
-    <circle cx="75" cy="281" r="3" class="bullet"/> <text x="88" y="286" class="i">Log Validation Pipelines</text>
-</g>
-
-<!-- ========================================== -->
-<!-- MODULE 2: DETECTION                        -->
-<!-- ========================================== -->
-<g filter="url(#shadow)">
-    <rect x="325" y="95" width="250" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
-    <g clip-path="url(#clip2)">
-        <rect x="325" y="95" width="250" height="4" fill="url(#scanLinePurple)" filter="url(#glow)">
-            <animate attributeName="y" values="340;95;340" dur="5s" repeatCount="indefinite"/>
-        </rect>
-    </g>
-    
-    <circle cx="450" cy="118" r="4" fill="#8b5cf6" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    
-    <text x="350" y="145" class="h">02 / DETECTION</text>
-    <text x="350" y="168" class="s">Custom Engineering</text>
-    
-    <circle cx="355" cy="197" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="202" class="i">Custom XML Logic Rules</text>
-    <circle cx="355" cy="225" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="230" class="i">INNO SOC Dashboarding</text>
-    <circle cx="355" cy="253" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="258" class="i">False Positive Tuning</text>
-    <circle cx="355" cy="281" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="286" class="i">Threat Hunting Queries</text>
-</g>
-
-<!-- ========================================== -->
-<!-- MODULE 3: OFFENSE                          -->
-<!-- ========================================== -->
-<g filter="url(#shadow)">
-    <rect x="605" y="95" width="250" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
-    <g clip-path="url(#clip3)">
-        <rect x="605" y="95" width="250" height="4" fill="url(#scanLine)" filter="url(#glow)">
-            <animate attributeName="y" values="95;340;95" dur="4.5s" repeatCount="indefinite"/>
-        </rect>
-    </g>
-
-    <circle cx="730" cy="118" r="4" fill="#22d3ee" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
-    </circle>
-    
-    <text x="630" y="145" class="h">03 / OFFENSE</text>
-    <text x="630" y="168" class="s">Validate &amp; Penetrate</text>
-    
-    <circle cx="635" cy="197" r="3" class="bullet"/> <text x="648" y="202" class="i">Mobile App VAPT</text>
-    <circle cx="635" cy="225" r="3" class="bullet"/> <text x="648" y="230" class="i">MobSF, Frida &amp; Burp</text>
-    <circle cx="635" cy="253" r="3" class="bullet"/> <text x="648" y="258" class="i">OWASP Mobile Top 10</text>
-    <circle cx="635" cy="281" r="3" class="bullet"/> <text x="648" y="286" class="i">Static/Dynamic Analysis</text>
-</g>
-
-<!-- ========================================== -->
-<!-- MODULE 4: RESPONSE                         -->
-<!-- ========================================== -->
-<g filter="url(#shadow)">
-    <rect x="885" y="95" width="270" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
-    <g clip-path="url(#clip4)">
-        <rect x="885" y="95" width="270" height="4" fill="url(#scanLinePurple)" filter="url(#glow)">
-            <animate attributeName="y" values="340;95;340" dur="3.8s" repeatCount="indefinite"/>
-        </rect>
-    </g>
-
-    <circle cx="1020" cy="118" r="4" fill="#8b5cf6" filter="url(#glow)">
-        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
-    </circle>
-    
-    <text x="910" y="145" class="h">04 / RESPONSE</text>
-    <text x="910" y="168" class="s">Investigate &amp; Harden</text>
-    
-    <circle cx="915" cy="197" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="202" class="i">Executive Layer Tracking</text>
-    <circle cx="915" cy="225" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="230" class="i">Endpoint Monitoring</text>
-    <circle cx="915" cy="253" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="258" class="i">Defensive Hardening</text>
-    <circle cx="915" cy="281" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="286" class="i">Lifecycle Reporting</text>
-</g>
-
-<!-- ========================================== -->
-<!-- ADVANCED BOTTOM DATA STREAM                -->
-<!-- ========================================== -->
-<g transform="translate(0, 370)">
-    <!-- Tech node design on the left/right of the line -->
-    <path d="M45 -5 L55 0 L45 5 Z" fill="#22d3ee" filter="url(#glow)"/>
-    <path d="M1155 -5 L1145 0 L1155 5 Z" fill="#8b5cf6" filter="url(#glow)"/>
-    
-    <!-- Complex dual-layer animated track -->
-    <path d="M 65 0 H 1135" stroke="#1e293b" stroke-width="2"/>
-    <path d="M 65 0 H 1135" stroke="url(#packet)" stroke-width="2.5" stroke-dasharray="80 240" filter="url(#glow)">
-        <animate attributeName="stroke-dashoffset" from="320" to="0" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M 65 0 H 1135" stroke="#ffffff" stroke-width="1" stroke-dasharray="10 150" opacity="0.8">
-        <animate attributeName="stroke-dashoffset" from="160" to="0" dur="2s" repeatCount="indefinite"/>
-    </path>
-</g>
-
+<!-- Footer Text -->
+<text x="600" y="375" text-anchor="middle" class="sub" fill="#94a3b8">CONTINUOUS SECURITY LOOP  ·  TELEMETRY → DETECTION → VALIDATION → RESPONSE</text>
 </svg>
