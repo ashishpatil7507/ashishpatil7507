@@ -224,30 +224,8 @@ Worked on network reconnaissance, scanning and practical web-security testing.
     alt="Section divider"
   />
 </div>
-## Security Operating Model
 
-<div align="center">
 
-```text
-ATTACK SURFACE
-      ↓
-VISIBILITY
-      ↓
-DETECTION
-      ↓
-INVESTIGATION
-      ↓
-RESPONSE
-      ↓
-HARDENING
-      ↺
-```
-
-`OFFENSE` → `TELEMETRY` → `DETECTION` → `RESPONSE` → `IMPROVEMENT`
-
-</div>
-
- <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Contact
 
