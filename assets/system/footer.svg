@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110">
+<defs><linearGradient id="f"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#ec4899"/></linearGradient></defs>
+<rect width="1200" height="110" rx="18" fill="#050b14" stroke="#1e293b"/>
+<path d="M40 72 C170 15 290 15 420 72 S670 129 800 72 S1030 15 1160 72" fill="none" stroke="url(#f)" stroke-width="2" stroke-dasharray="10 12"><animate attributeName="stroke-dashoffset" from="0" to="-44" dur="3s" repeatCount="indefinite"/></path>
+<text x="600" y="43" text-anchor="middle" fill="#cbd5e1" font-family="Segoe UI,Arial" font-size="14" letter-spacing="3">SECURITY IS A CONTINUOUS ENGINEERING LOOP</text>
+</svg>
