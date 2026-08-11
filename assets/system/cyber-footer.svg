@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="170" viewBox="0 0 1400 170">
-<defs><linearGradient id="g"><stop stop-color="#00FF41"/><stop offset=".5" stop-color="#00C7B7"/><stop offset="1" stop-color="#050505"/></linearGradient></defs>
-<rect width="1400" height="170" fill="#030505"/>
-<path d="M0 110 Q350 30 700 110 T1400 90" fill="none" stroke="url(#g)" stroke-width="3"/>
-<path d="M0 125 Q350 45 700 125 T1400 105" fill="none" stroke="#00C7B7" stroke-opacity=".25" stroke-width="2"/>
-<text x="700" y="65" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="16" letter-spacing="4">[ SYSTEM ONLINE ]  [ TELEMETRY ACTIVE ]  [ THREAT SURFACE MONITORED ]</text>
-<circle cx="180" cy="105" r="5" fill="#00FF41"><animate attributeName="opacity" values=".2;1;.2" dur="1s" repeatCount="indefinite"/></circle>
-<circle cx="1220" cy="95" r="5" fill="#00C7B7"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
-</svg>

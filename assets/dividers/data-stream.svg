@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="90" viewBox="0 0 1400 90">
-<defs><linearGradient id="g"><stop stop-color="#00FF41"/><stop offset=".5" stop-color="#00C7B7"/><stop offset="1" stop-color="#00FF41"/></linearGradient><filter id="gl"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="1400" height="90" fill="#050505"/>
-<path d="M0 45 H180 L210 20 H420 L450 65 H700 L730 25 H1000 L1030 55 H1400" fill="none" stroke="url(#g)" stroke-width="2" filter="url(#gl)"/>
-<circle r="5" fill="#00FF41" filter="url(#gl)"><animate attributeName="cx" values="0;1400;0" dur="4s" repeatCount="indefinite"/><animate attributeName="cy" values="45;45;45" dur="4s" repeatCount="indefinite"/></circle>
-<text x="700" y="78" text-anchor="middle" fill="#00C7B7" font-family="monospace" font-size="11" letter-spacing="5">SECURITY TELEMETRY</text>
-</svg>
