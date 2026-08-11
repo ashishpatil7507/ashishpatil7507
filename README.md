@@ -176,26 +176,59 @@ Worked on network reconnaissance, scanning and practical web-security testing.
 - **IJREAM published research — WebRTC Security Analysis**
 
  <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
-
-## GitHub Telemetry
-
 <div align="center">
 
-<a href="https://github.com/ashishpatil7507"><img height="170" src="https://github-readme-stats.vercel.app/api?username=ashishpatil7507&show_icons=true&hide_border=true&rank_icon=github&bg_color=050B14&title_color=22D3EE&icon_color=8B5CF6&text_color=C9D1D9" alt="GitHub statistics"/></a>
-<a href="https://github.com/ashishpatil7507"><img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=ashishpatil7507&hide_border=true&background=050B14&ring=22D3EE&fire=8B5CF6&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B" alt="GitHub streak"/></a>
+<img
+  src="./assets/github/github-telemetry-header.svg"
+  width="100%"
+  alt="GitHub Telemetry"
+/>
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ashishpatil7507&theme=github_dark" width="96%" alt="GitHub contribution summary"/>
+<a href="https://github.com/ashishpatil7507">
+  <img
+    height="170"
+    src="https://github-readme-stats.vercel.app/api?username=ashishpatil7507&show_icons=true&hide_border=true&rank_icon=github&bg_color=050B14&title_color=22D3EE&icon_color=8B5CF6&text_color=C9D1D9"
+    alt="GitHub statistics"
+  />
+</a>
+&nbsp;
+<a href="https://github.com/ashishpatil7507">
+  <img
+    height="170"
+    src="https://github-readme-streak-stats.herokuapp.com/?user=ashishpatil7507&hide_border=true&background=050B14&ring=22D3EE&fire=8B5CF6&currStreakNum=C9D1D9&sideNums=C9D1D9&currStreakLabel=22D3EE&sideLabels=94A3B8&dates=64748B"
+    alt="GitHub streak"
+  />
+</a>
 
 <br><br>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ashishpatil7507&theme=github-compact&hide_border=true&area=true&color=22d3ee&line=8b5cf6&point=ffffff" width="96%" alt="GitHub activity graph"/>
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ashishpatil7507&theme=github_dark"
+  width="96%"
+  alt="GitHub contribution summary"
+/>
+
+<br><br>
+
+<img
+  src="https://github-readme-activity-graph.vercel.app/graph?username=ashishpatil7507&theme=github-compact&hide_border=true&area=true&color=22d3ee&line=8b5cf6&point=ffffff"
+  width="96%"
+  alt="GitHub activity graph"
+/>
 
 </div>
 
- <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
+<br>
 
+<div align="center">
+  <img
+    src="./assets/dividers/flow.svg"
+    width="100%"
+    alt="Section divider"
+  />
+</div>
 ## Security Operating Model
 
 <div align="center">
