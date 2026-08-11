@@ -1,36 +1,168 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360">
 <defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050914"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
- <linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
- <radialGradient id="glow"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#38bdf8" stroke-opacity=".045"/></pattern>
- <filter id="blur"><feGaussianBlur stdDeviation="5"/></filter>
- <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".5"/></filter>
- <style>.name{font:700 58px 'Segoe UI',Arial,sans-serif;fill:#f8fafc;letter-spacing:2px}.role{font:600 17px 'Segoe UI',Arial,sans-serif;fill:#94a3b8;letter-spacing:3px}.tag{font:600 12px 'Segoe UI',Arial,sans-serif;fill:#cbd5e1;letter-spacing:1px}.mono{font:600 12px monospace;fill:#67e8f9}</style>
+ <!-- Core Gradients & Backgrounds -->
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
+ <linearGradient id="primary" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+ <linearGradient id="secondary" x1="0" x2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
+ 
+ <radialGradient id="radarGlow"><stop stop-color="#22d3ee" stop-opacity=".25"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+ <radialGradient id="coreGlow"><stop stop-color="#8b5cf6" stop-opacity=".4"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></radialGradient>
+
+ <!-- Tactical Grid -->
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+  <path d="M40 0H0V40" fill="none" stroke="#38bdf8" stroke-opacity=".03"/>
+  <circle cx="40" cy="40" r="1" fill="#38bdf8" fill-opacity="0.2"/>
+ </pattern>
+
+ <!-- High-Performance Neon Filter -->
+ <filter id="neon" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="3" result="blur"/>
+  <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+ </filter>
+
+ <style>
+  .title { font: 800 52px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 1.5px; }
+  .subtitle { font: 600 18px 'Segoe UI', Arial, sans-serif; fill: #a78bfa; letter-spacing: 3px; }
+  .mono { font: 600 13px 'JetBrains Mono', monospace; fill: #22d3ee; letter-spacing: 1px; }
+  .term { font: 500 11px 'JetBrains Mono', monospace; fill: #475569; letter-spacing: 0.5px; }
+  .hud { font: 600 10px 'JetBrains Mono', monospace; fill: #38bdf8; letter-spacing: 2px; }
+ </style>
 </defs>
+
+<!-- Deep Space / Canvas Background -->
 <rect width="1200" height="360" rx="22" fill="url(#bg)"/>
 <rect width="1200" height="360" rx="22" fill="url(#grid)"/>
-<circle cx="1010" cy="160" r="230" fill="url(#glow)"><animate attributeName="r" values="210;245;210" dur="7s" repeatCount="indefinite"/></circle>
-<g opacity=".55" stroke="#22d3ee" stroke-width="1">
- <path d="M0 285H270L320 235H430"/><path d="M820 285H930L985 230H1200"/>
- <path d="M0 75H190L230 115H370"/><path d="M850 75H980L1030 115H1200"/>
+
+<!-- ========================================== -->
+<!-- LEFT PANEL: TERMINAL LOGS & IDENTITY       -->
+<!-- ========================================== -->
+
+<!-- Background Terminal Logs (Using tools from resume) -->
+<g class="term">
+ <text x="60" y="60">&gt;_ INIT_SYSTEM_BOOT...</text>
+ <text x="60" y="75">&gt;_ LOAD: Wazuh SIEM/XDR_Module</text>
+ <text x="60" y="90">&gt;_ SEC_PROTOCOL: MITRE ATT&amp;CK Framework</text>
+ <text x="60" y="105">&gt;_ SYSMON_CONFIG: Active (Olaf Hartong)</text>
 </g>
-<g transform="translate(965 160)">
- <circle r="90" fill="none" stroke="#1e293b" stroke-width="2"/>
- <circle r="70" fill="none" stroke="url(#g)" stroke-width="2" stroke-dasharray="14 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="16s" repeatCount="indefinite"/></circle>
- <circle r="43" fill="none" stroke="#334155" stroke-width="1"/>
- <circle r="14" fill="#22d3ee" filter="url(#blur)"><animate attributeName="r" values="10;15;10" dur="3s" repeatCount="indefinite"/></circle>
- <circle r="7" fill="#e0f2fe"/>
- <g stroke="#22d3ee" stroke-width="2"><path d="M0-108V-82"/><path d="M0 82V108"/><path d="M-108 0H-82"/><path d="M82 0H108"/></g>
+
+<!-- Animated Loading Bar -->
+<rect x="60" y="115" width="250" height="2" fill="#1e293b"/>
+<rect x="60" y="115" width="50" height="2" fill="#22d3ee">
+ <animate attributeName="width" values="0;250;0" dur="6s" repeatCount="indefinite"/>
+</rect>
+
+<!-- Main Professional Identity -->
+<text x="60" y="170" class="title">ASHISH RAMLING PATIL</text>
+<text x="62" y="205" class="subtitle">CYBERSECURITY ANALYST | SOC ENGINEER</text>
+
+<!-- Certification Badges / Tech Stack -->
+<g transform="translate(62, 235)">
+ <rect width="480" height="40" rx="6" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+ <rect width="480" height="40" rx="6" fill="none" stroke="url(#primary)" stroke-width="1" opacity="0.5">
+  <animate attributeName="opacity" values="0.2;0.8;0.2" dur="3s" repeatCount="indefinite"/>
+ </rect>
+ 
+ <!-- Pulsing Status Node -->
+ <circle cx="25" cy="20" r="5" fill="#22d3ee" filter="url(#neon)">
+  <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite"/>
+ </circle>
+ 
+ <text x="45" y="25" class="mono" fill="#e2e8f0">WAZUH SIEM • VAPT • THREAT HUNTING • RED TEAM</text>
 </g>
-<text x="76" y="120" class="mono">CYBERSECURITY / SOC / VAPT</text>
-<text x="76" y="180" class="name">ASHISH PATIL</text>
-<text x="78" y="214" class="role">CYBERSECURITY ANALYST • PURPLE TEAM</text>
-<g transform="translate(78 255)">
- <rect width="420" height="34" rx="17" fill="#0f172a" stroke="#334155"/>
- <circle cx="18" cy="17" r="5" fill="#22d3ee"><animate attributeName="opacity" values=".35;1;.35" dur="2s" repeatCount="indefinite"/></circle>
- <text x="32" y="22" class="tag">SOC • DETECTION • THREAT HUNTING • VAPT</text>
+
+<!-- Footer Credentials -->
+<text x="62" y="315" class="mono">CERTIFIED ETHICAL HACKER (CEH v13 AI) // COMPTIA SECURITY+ (SY0-701)</text>
+
+<!-- Animated Tech Trace -->
+<path d="M40 335H1160" stroke="url(#primary)" stroke-width="2" stroke-dasharray="4 12" opacity="0.6">
+ <animate attributeName="stroke-dashoffset" from="160" to="0" dur="3s" repeatCount="indefinite"/>
+</path>
+
+
+<!-- ========================================== -->
+<!-- RIGHT PANEL: ADVANCED THREAT RADAR HUD     -->
+<!-- ========================================== -->
+<g transform="translate(920, 180)">
+ 
+ <!-- Ambient Radar Glows -->
+ <circle r="200" fill="url(#radarGlow)">
+  <animate attributeName="opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+ </circle>
+ <circle r="60" fill="url(#coreGlow)"/>
+
+ <!-- Static HUD Corner Brackets -->
+ <g stroke="#38bdf8" stroke-width="3" fill="none" opacity="0.5">
+  <path d="M -150 -130 L -150 -150 L -130 -150"/>
+  <path d="M 150 -130 L 150 -150 L 130 -150"/>
+  <path d="M -150 130 L -150 150 L -130 150"/>
+  <path d="M 150 130 L 150 150 L 130 150"/>
+ </g>
+
+ <!-- Static Structural Rings & Grid -->
+ <circle r="140" fill="none" stroke="#1e293b" stroke-width="2"/>
+ <circle r="110" fill="none" stroke="#1e293b" stroke-width="1"/>
+ <circle r="80" fill="none" stroke="#1e293b" stroke-width="1"/>
+ <line x1="-140" y1="0" x2="140" y2="0" stroke="#1e293b" stroke-width="1"/>
+ <line x1="0" y1="-140" x2="0" y2="140" stroke="#1e293b" stroke-width="1"/>
+
+ <!-- HUD Text Diagnostics -->
+ <text x="-135" y="-155" class="hud">SYS: ACTIVE</text>
+ <text x="75" y="-155" class="hud">TRGT: 0.0.0</text>
+ <text x="-135" y="165" class="hud">ENG: WAZUH</text>
+ <text x="75" y="165" class="hud">SCN: 360°</text>
+
+ <!-- ANIMATED LAYER 1: Fast Outer Data Ring (Counter-Clockwise) -->
+ <g>
+  <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="18s" repeatCount="indefinite"/>
+  <circle r="125" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="2 10 15 20 5 30"/>
+ </g>
+
+ <!-- ANIMATED LAYER 2: Slow Thick Primary Ring (Clockwise) -->
+ <g>
+  <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+  <circle r="95" fill="none" stroke="url(#primary)" stroke-width="4" stroke-dasharray="60 40 10 40"/>
+ </g>
+
+ <!-- ANIMATED LAYER 3: Inner Precision Track (Counter-Clockwise) -->
+ <g>
+  <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="12s" repeatCount="indefinite"/>
+  <circle r="65" fill="none" stroke="#22d3ee" stroke-width="1.5" stroke-dasharray="4 6"/>
+ </g>
+
+ <!-- Orbiting Data Node 1 (Purple Satellite) -->
+ <g>
+  <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="8s" repeatCount="indefinite"/>
+  <circle cx="0" cy="-140" r="4" fill="#8b5cf6" filter="url(#neon)"/>
+  <line x1="0" y1="-140" x2="0" y2="-125" stroke="#8b5cf6" stroke-width="1"/>
+ </g>
+
+ <!-- Orbiting Data Node 2 (Cyan Satellite) -->
+ <g>
+  <animateTransform attributeName="transform" type="rotate" from="180" to="540" dur="14s" repeatCount="indefinite"/>
+  <circle cx="95" cy="0" r="5" fill="#22d3ee" filter="url(#neon)"/>
+  <!-- Target bracket around the node -->
+  <path d="M 85 -5 L 85 -10 L 105 -10 L 105 -5" fill="none" stroke="#22d3ee" stroke-width="1"/>
+ </g>
+
+ <!-- Core Precision Crosshairs -->
+ <g stroke="#38bdf8" stroke-width="1.5" opacity="0.7">
+  <!-- Crosses -->
+  <path d="M 0 -35 L 0 -15"/>
+  <path d="M 0 15 L 0 35"/>
+  <path d="M -35 0 L -15 0"/>
+  <path d="M 15 0 L 35 0"/>
+  <!-- Center Dot -->
+  <circle r="3" fill="#ffffff" filter="url(#neon)">
+   <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+  </circle>
+ </g>
+
+ <!-- Sweeping Radar Cone Scanner -->
+ <g>
+  <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="4s" repeatCount="indefinite"/>
+  <path d="M 0 0 L 0 -140 A 140 140 0 0 1 99 -99 Z" fill="url(#radarGlow)"/>
+  <line x1="0" y1="0" x2="0" y2="-140" stroke="#22d3ee" stroke-width="2" filter="url(#neon)"/>
+ </g>
+
 </g>
-<text x="78" y="318" class="tag">Security telemetry → detection → investigation → hardening</text>
-<path d="M42 338H1158" stroke="url(#g)" stroke-width="2" stroke-dasharray="4 14"><animate attributeName="stroke-dashoffset" from="0" to="-180" dur="5s" repeatCount="indefinite"/></path>
 </svg>
