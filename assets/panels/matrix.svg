@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 280">
+<defs><linearGradient id="s"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><style>.h{font:700 19px Segoe UI,Arial;fill:#f8fafc}.p{font:500 12px Segoe UI,Arial;fill:#94a3b8}.x{font:600 13px Segoe UI,Arial;fill:#dbeafe}</style></defs>
+<rect width="1200" height="280" rx="18" fill="#05070d" stroke="#1e293b"/>
+<g fill="#07111b" stroke="url(#s)"><rect x="20" y="20" width="275" height="240" rx="15"/><rect x="315" y="20" width="275" height="240" rx="15"/><rect x="610" y="20" width="275" height="240" rx="15"/><rect x="905" y="20" width="275" height="240" rx="15"/></g>
+<g text-anchor="middle">
+<text x="157" y="65" class="h">SOC ENGINEERING</text><text x="157" y="91" class="p">Detect • Investigate • Respond</text><text x="157" y="132" class="x">Wazuh</text><text x="157" y="157" class="x">Sysmon</text><text x="157" y="182" class="x">Rules / Decoders</text><text x="157" y="207" class="x">Threat Hunting</text>
+<text x="452" y="65" class="h">WEB VAPT</text><text x="452" y="91" class="p">Assess • Exploit • Validate</text><text x="452" y="132" class="x">Burp Suite</text><text x="452" y="157" class="x">OWASP Top 10</text><text x="452" y="182" class="x">SQLi / XSS / IDOR</text><text x="452" y="207" class="x">Web Security</text>
+<text x="747" y="65" class="h">SECURITY AUTOMATION</text><text x="747" y="91" class="p">Script • Integrate • Report</text><text x="747" y="132" class="x">Python</text><text x="747" y="157" class="x">PowerShell</text><text x="747" y="182" class="x">Bash</text><text x="747" y="207" class="x">Security Tooling</text>
+<text x="1042" y="65" class="h">CLOUD SECURITY</text><text x="1042" y="91" class="p">Deploy • Monitor • Harden</text><text x="1042" y="132" class="x">AWS / EC2</text><text x="1042" y="157" class="x">Linux</text><text x="1042" y="182" class="x">Log Pipelines</text><text x="1042" y="207" class="x">Infrastructure</text>
+</g>
+<path d="M35 245H1165" stroke="url(#s)" stroke-width="1" stroke-dasharray="5 10"><animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/></path>
+</svg>

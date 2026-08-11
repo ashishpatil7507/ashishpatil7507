@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070d"/><stop offset="1" stop-color="#0b1020"/></linearGradient>
+<linearGradient id="ln"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+<radialGradient id="gl"><stop stop-color="#22d3ee" stop-opacity=".18"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#38bdf8" stroke-opacity=".045"/></pattern>
+<style>.t{font-family:Segoe UI,Arial}.title{font-size:42px;font-weight:700;fill:#f8fafc;letter-spacing:1px}.sub{font-size:14px;font-weight:500;fill:#94a3b8;letter-spacing:2px}.tiny{font-size:11px;font-weight:600;fill:#64748b;letter-spacing:2px}</style>
+</defs>
+<rect width="1200" height="360" rx="18" fill="url(#bg)"/><rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+<circle cx="600" cy="155" r="185" fill="url(#gl)"><animate attributeName="r" values="165;205;165" dur="8s" repeatCount="indefinite"/></circle>
+<path d="M55 55H340M860 55H1145M55 305H270M930 305H1145" stroke="url(#ln)" stroke-width="2"/>
+<g transform="translate(600 76)">
+<circle r="29" fill="#07111c" stroke="#243244" stroke-width="2"/>
+<circle r="21" fill="none" stroke="#22d3ee" stroke-width="3" stroke-dasharray="28 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/></circle>
+<circle r="7" fill="#22d3ee"><animate attributeName="r" values="6;9;6" dur="3s" repeatCount="indefinite"/></circle>
+<path d="M-38 0H-27M27 0H38M0-38V-27M0 27V38" stroke="#22d3ee" stroke-width="3"/>
+</g>
+<text x="600" y="145" text-anchor="middle" class="t tiny">SECURITY OPERATIONS // PROFILE</text>
+<text x="600" y="196" text-anchor="middle" class="t title">ASHISH PATIL</text>
+<text x="600" y="225" text-anchor="middle" class="t sub">CYBERSECURITY ANALYST • SOC • VAPT • DETECTION ENGINEERING</text>
+<text x="230" y="275" text-anchor="middle" class="t tiny">MONITOR</text><text x="600" y="275" text-anchor="middle" class="t tiny">INVESTIGATE</text><text x="970" y="275" text-anchor="middle" class="t tiny">HARDEN</text>
+<path d="M300 272H520M680 272H900" stroke="url(#ln)" stroke-width="1.5" stroke-dasharray="6 9"><animate attributeName="stroke-dashoffset" from="0" to="-60" dur="3s" repeatCount="indefinite"/></path>
+</svg>
