@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" width="1200" height="120">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop stop-color="#22d3ee"/>
+    <stop offset=".5" stop-color="#8b5cf6"/>
+    <stop offset="1" stop-color="#22d3ee"/>
+  </linearGradient>
+  <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <style>
+    .t{font:700 15px 'Segoe UI',Arial,sans-serif;fill:#e2e8f0;letter-spacing:2px}
+    .s{font:500 11px 'Segoe UI',Arial,sans-serif;fill:#64748b;letter-spacing:1.2px}
+  </style>
+</defs>
+
+<rect width="1200" height="120" rx="18" fill="#050b14" stroke="#172033"/>
+
+<!-- subtle ambient grid -->
+<g opacity=".18" stroke="#22d3ee" stroke-width=".6">
+  <path d="M40 30H1160M40 60H1160M40 90H1160"/>
+  <path d="M140 18V102M300 18V102M460 18V102M620 18V102M780 18V102M940 18V102M1060 18V102"/>
+</g>
+
+<!-- left telemetry node -->
+<g transform="translate(52 60)">
+  <circle r="20" fill="#08121f" stroke="#1e3448"/>
+  <circle r="11" fill="none" stroke="#22d3ee" stroke-width="1.5" opacity=".8"/>
+  <circle r="3.5" fill="#22d3ee" filter="url(#glow)">
+    <animate attributeName="opacity" values=".35;1;.35" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- central title -->
+<text x="600" y="48" text-anchor="middle" class="t">GITHUB TELEMETRY</text>
+<text x="600" y="70" text-anchor="middle" class="s">CODE • CONTRIBUTIONS • ENGINEERING ACTIVITY</text>
+
+<!-- signal rail -->
+<path d="M90 91 H1110" stroke="#172033" stroke-width="2"/>
+<path d="M90 91 H1110" stroke="url(#g)" stroke-width="2" stroke-dasharray="70 230" opacity=".8">
+  <animate attributeName="stroke-dashoffset" from="300" to="0" dur="5s" repeatCount="indefinite"/>
+</path>
+
+<!-- right status -->
+<g transform="translate(1148 60)">
+  <circle r="7" fill="#0b1822" stroke="#22d3ee"/>
+  <circle r="3" fill="#22d3ee">
+    <animate attributeName="r" values="2.5;4;2.5" dur="2.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".5;1;.5" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+</g>
+
+<!-- tiny moving packet -->
+<circle r="2.5" fill="#fff" filter="url(#glow)">
+  <animate attributeName="cx" values="90;1110;90" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="91;91;91" dur="8s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0;.9;0" dur="8s" repeatCount="indefinite"/>
+</circle>
+</svg>
