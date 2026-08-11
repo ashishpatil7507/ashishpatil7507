@@ -1,191 +1,122 @@
-<!-- Professional Banner with name -->
-
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=150&section=header&text=Ashish%20Patil&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=FFFFFF&desc=Cyber%20Security%20Analyst%20(VAPT)&descAlignY=55&descSize=20" width="100%"/>
+</div>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=00FF41&center=true&vCenter=true&random=false&width=600&lines=Ashish+Patil;Cybersecurity+Analyst;Red+Team+Operator;VAPT+Specialist;Web+Penetration+Tester;Offensive+Security+Engineer" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=Cyber+Security+Analyst+(VAPT);CEH+v13+Ai+Certified;.py-Scripting+Specialist;Red+Team+%26+Offensive+Security;Threat+Intelligence+%26+SOC+Analyst" alt="Typing SVG" />
 </h1>
 
-<!-- Contact badges – no black, professional colours -->
 <p align="center">
-  <a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/ashishpatil7507"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-  <a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=aboutdotme&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
+  <a href="https://github.com/ashishpatil7507"><img src="https://img.shields.io/badge/GitHub-121011?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  <a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/Portfolio-00C7B7?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio"/></a>
 </p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&style=flat-square&color=00CC00" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&style=flat-square&color=00FF41&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
----
+<br>
 
-<!-- Professional Summary – white icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/account_circle/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Professional Summary
-</h3>
+### ✧ Who Am I?
+> I am a **Cyber Security Analyst (VAPT)** and **Red Team Operator** dedicated to identifying vulnerabilities and fortifying enterprise architectures. Specializing in offensive security, SOC analysis, and threat intelligence, I leverage **.py-Scripting** and advanced SIEM/XDR platforms like Wazuh to automate security operations and hunt threats. 
 
-Cybersecurity professional specializing in **Offensive Security, Red Teaming, and Web Application Penetration Testing**.  
-Hands‑on experience in VAPT assessments, OWASP Top 10 testing, and security automation using Python.  
-Published cybersecurity researcher with **CEH v13 (AI)** and **CompTIA Security+** certifications.
-
----
-
-<!-- Certifications – white icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/verified/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Certifications
-</h3>
-
-<p>
-  <img src="https://img.shields.io/badge/CEH%20v13%20(AI)-EC--Council-CC0000?style=for-the-badge&logo=eccouncil&logoColor=white" />
-  <img src="https://img.shields.io/badge/CompTIA%20Security%2B-SY0--701-4D4D4D?style=for-the-badge&logo=comptia&logoColor=white" />
-  <img src="https://img.shields.io/badge/Ethical%20Hacking%20(Python%20%2B%20AI)-Udemy-A435F0?style=for-the-badge&logo=udemy&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cybersecurity%20%26%20Digital%20Forensics%20Honors-Sinhgad%20COE-005F9E?style=for-the-badge" />
-</p>
-
----
-
-<!-- Technical Arsenal – white terminal icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/terminal/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Technical Arsenal
-</h3>
-
-**Penetration Testing:** Web App Pentesting, VAPT, Red Teaming, Network Security Scanning, OWASP Top 10  
-
-**Security Tools:**  
-![](https://img.shields.io/badge/Burp_Suite-FF6F00?style=for-the-badge&logo=burpsuite&logoColor=white)
-![](https://img.shields.io/badge/sqlmap-1B2B3A?style=for-the-badge&logo=sqlite&logoColor=white)
-![](https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white)
-![](https://img.shields.io/badge/Metasploit-3C3C3C?style=for-the-badge&logo=metasploit&logoColor=white)
-![](https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white)
-![](https://img.shields.io/badge/Nessus-00A3E0?style=for-the-badge&logo=tenable&logoColor=white)
-![](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
-![](https://img.shields.io/badge/Hashcat-808080?style=for-the-badge&logo=hashcat&logoColor=white)
-![](https://img.shields.io/badge/John_the_Ripper-A9A9A9?style=for-the-badge&logo=johntheripper&logoColor=white)
-
-**Programming & Scripting:**  
-![](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
-![](https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white)
-![](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Platforms & Frameworks:**  
-![](https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
-![](https://img.shields.io/badge/Parrot_OS-33AADD?style=for-the-badge&logo=parrotsecurity&logoColor=white)
-![](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![](https://img.shields.io/badge/MITRE_ATT%26CK-002B5C?style=for-the-badge&logo=mitre&logoColor=white)
-![](https://img.shields.io/badge/NIST_Cybersecurity_Framework-0052CC?style=for-the-badge&logo=nist&logoColor=white)
-![](https://img.shields.io/badge/OWASP_Top_10-2025-003B6F?style=for-the-badge&logo=owasp&logoColor=white)
-
-**SIEM / XDR:**  
-![](https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white)
-
-**Security Operations:** SIEM, Log Analysis, Threat Detection, Digital Forensics, Incident Response
-
----
-
-<!-- Professional Experience – white icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/work/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Professional Experience
-</h3>
-
-**Cybersecurity RED TEAM Intern (VAPT – Web App Penetration Testing)**  
-*Innover Systems Pvt. Ltd., Pune* | Feb 2026 – Present  
-- OWASP Top 10 web application pentesting using Burp Suite, SQLMap, Metasploit, OWASP ZAP, Nmap  
-- Identify SQLi, XSS, IDOR, CSRF; document findings in VAPT reports and presentations  
-
-**Offensive Security Intern**  
-*InLighnX Global Pvt. Ltd., Pune* | Jul 2025 – Oct 2025  
-- Built Python-based PDF security analysis tool → reduced manual analysis time by **60%**  
-- Performed web app pentesting and discovered **15+ vulnerabilities** (SQLi, XSS)  
-
-**Ethical Hacking Intern**  
-*TechnoHacks EduTech* | Feb 2023 – Jun 2023  
-- Conducted VAPT on 15+ web applications following OWASP Top 10  
-- Network scanning of 100+ hosts revealed multiple critical vulnerabilities  
-
----
-
-<!-- Education – white icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/school/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Education
-</h3>
-
-![](https://img.shields.io/badge/PG%20Diploma%20in%20Cybersecurity-FineX%20Institute%2C%20Mumbai-9.4%2F10%20CGPA-blue?style=flat-square)
-![](https://img.shields.io/badge/B.E.%20Computer%20Science-Sinhgad%20COE%2C%20Pune-8.3%2F10%20CGPA-blue?style=flat-square)
-![](https://img.shields.io/badge/Diploma%20Computer%20Tech-Government%20Polytechnic%20Solapur-80.74%25-blue?style=flat-square)
-
----
-
-<!-- Projects – redesigned as a clean, visual table with white icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/folder_open/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Key Projects
-</h3>
-
-<table align="center">
-  <tr style="background-color:#0D1117;">
-    <th style="color:#00FF41; padding:8px;">Project</th>
-    <th style="color:#00FF41; padding:8px;">Description</th>
-    <th style="color:#00FF41; padding:8px;">Focus</th>
-  </tr>
+<table align="center" width="100%">
   <tr>
-    <td style="padding:8px;"><img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/description/default/20px.svg?color=FFFFFF" style="vertical-align:middle; margin-right:6px;"><strong>PDF Security Intelligence Web‑App</strong></td>
-    <td style="padding:8px;">Automated PDF vulnerability & metadata analysis tool</td>
-    <td style="padding:8px;">
-      <img src="https://img.shields.io/badge/Digital%20Forensics-00BFFF?style=flat-square" />
-      <img src="https://img.shields.io/badge/70%25%20Time%20Reduction-32CD32?style=flat-square" />
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ What I Do</h3>
+      <ul>
+        <li>🔭 <b>Currently Executing:</b> Advanced Vulnerability Assessments & Web App Penetration Testing.</li>
+        <li>🌱 <b>Deep Diving Into:</b> Cloud-native security architectures, AWS EC2 SOC deployments, and Threat Hunting.</li>
+        <li>⚙️ <b>Daily Arsenal:</b> Wazuh SIEM/XDR, Burp Suite, Python automation, and Metasploit.</li>
+        <li>🛡️ <b>Certifications:</b> CEH v13 Ai | CompTIA Security+</li>
+      </ul>
     </td>
-  </tr>
-  <tr>
-    <td style="padding:8px;"><img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/lock/default/20px.svg?color=FFFFFF" style="vertical-align:middle; margin-right:6px;"><strong>Secure Image Steganography (AES)</strong></td>
-    <td style="padding:8px;">AES‑encrypted data hidden inside images</td>
-    <td style="padding:8px;">
-      <img src="https://img.shields.io/badge/Cryptography-7B68EE?style=flat-square" />
-      <img src="https://img.shields.io/badge/Data%20Confidentiality-FF4500?style=flat-square" />
-    </td>
-  </tr>
-  <tr>
-    <td style="padding:8px;"><img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/wifi/default/20px.svg?color=FFFFFF" style="vertical-align:middle; margin-right:6px;"><strong>Wi‑Fi Security Assessment</strong></td>
-    <td style="padding:8px;">Deauthentication & Evil Twin attack simulation</td>
-    <td style="padding:8px;">
-      <img src="https://img.shields.io/badge/Wireless%20Pentesting-8A2BE2?style=flat-square" />
-      <img src="https://img.shields.io/badge/Vulnerability%20Analysis-DC143C?style=flat-square" />
+    <td width="50%" valign="top">
+      <h3 align="center">🏆 Highlights</h3>
+      <ul>
+        <li>📝 Published researcher in IJREAM ("WebRTC Security Analysis").</li>
+        <li>🎯 Built a custom Python PDF Security Intelligence Web-App reducing analysis time by 70%.</li>
+        <li>💡 Found 15+ critical vulnerabilities (SQLi, XSS) across enterprise web environments.</li>
+        <li>🎓 Presented at FineX Institute Conference with Academic Excellence.</li>
+      </ul>
     </td>
   </tr>
 </table>
 
----
+<br>
 
-<!-- Achievements – white icon -->
-<h3>
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/emoji_events/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Achievements & Publications
-</h3>
+### ⚔️ Technical Arsenal
 
-- Published research paper **“WebRTC Security Analysis”** in IJREAM journal (2024)  
-- Presented cybersecurity research at **FineX Institute Conference (2025)** – Academic Excellence: **9.4/10 CGPA**  
-- Multiple CTF participations and continuous self‑driven red teaming labs  
+<details open>
+<summary><b>🛡️ Offensive Security & VAPT</b></summary>
+<br>
+<p>
+  <img src="https://img.shields.io/badge/Burp_Suite-FF6F00?style=for-the-badge&logo=burpsuite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Metasploit-3C3C3C?style=for-the-badge&logo=metasploit&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/sqlmap-1B2B3A?style=for-the-badge&logo=sqlite&logoColor=white" />
+  <img src="https://img.shields.io/badge/OWASP_ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nessus-00A3E0?style=for-the-badge&logo=tenable&logoColor=white" />
+  <img src="https://img.shields.io/badge/Hashcat-808080?style=for-the-badge&logo=hashcat&logoColor=white" />
+</p>
+</details>
 
----
+<details open>
+<summary><b>👁️ SOC, SIEM & Threat Intelligence</b></summary>
+<br>
+<p>
+  <img src="https://img.shields.io/badge/Wazuh_SIEM/XDR-005571?style=for-the-badge&logo=wazuh&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/MITRE_ATT%26CK-002B5C?style=for-the-badge&logo=mitre&logoColor=white" />
+  <img src="https://img.shields.io/badge/NIST_Framework-0052CC?style=for-the-badge&logo=nist&logoColor=white" />
+  <img src="https://img.shields.io/badge/Incident_Response-B32024?style=for-the-badge&logo=firewalls&logoColor=white" />
+</p>
+</details>
 
-<!-- GitHub Activity – replaced boring stats with professional contribution graph -->
-<h3 align="center">
-  <img src="https://fonts.gstatic.com/s/i/short-term/release/materialsymbolsoutlined/monitoring/default/24px.svg?color=FFFFFF" width="28" style="vertical-align: middle;" />
-  Contribution Activity
-</h3>
+<details open>
+<summary><b>💻 Programming & Cloud Infrastructure</b></summary>
+<br>
+<p>
+  <img src="https://img.shields.io/badge/.py--Scripting-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Bash_Scripting-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white" />
+</p>
+</details>
+
+<br>
+
+### 💼 Professional Experience
+
+| Role & Organization | Focus Areas | Timeline |
+| :--- | :--- | :--- |
+| **Cybersecurity RED TEAM Intern**<br>@ *Innover Systems Pvt. Ltd.* | OWASP Top 10 VAPT, SQLi, XSS, IDOR, Web App Penetration Testing | Feb 2026 – Present |
+| **Offensive Security Intern**<br>@ *InLighnX Global Pvt. Ltd.* | Custom .py-Scripting, Web App Pentesting (15+ Vulns Discovered) | Jul 2025 – Oct 2025 |
+| **Ethical Hacking Intern**<br>@ *TechnoHacks EduTech* | Network Scanning (100+ hosts), VAPT on 15+ Web Applications | Feb 2023 – Jun 2023 |
+
+<br>
+
+### 📊 GitHub Operations Center
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/00FF41/ashishpatil7507" alt="Ashish Patil's GitHub contribution graph" />
+  <a href="https://github.com/ashishpatil7507">
+    <img src="https://github-readme-stats.vercel.app/api?username=ashishpatil7507&show_icons=true&hide_border=true&bg_color=0a0a0a&title_color=00FF41&icon_color=00C7B7&text_color=cccccc" width="48%" />
+  </a>
+  <a href="https://github.com/ashishpatil7507">
+    <img src="https://github-readme-streak-stats.herokuapp.com/?user=ashishpatil7507&hide_border=true&background=0a0a0a&ring=00C7B7&fire=00FF41&currStreakNum=cccccc&sideNums=cccccc&currStreakLabel=00C7B7&sideLabels=00C7B7&dates=cccccc" width="48%" />
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ashishpatil7507&theme=tokyonight" width="100%" />
 </p>
 
 ---
 
-<!-- Closing matrix touch -->
 <div align="center">
-  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="300" />
+  <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200" style="border-radius: 10px;" />
+  <p style="color: #00FF41; font-family: monospace;">// INITIALIZING_SLEEP_MODE = FALSE //</p>
 </div>
