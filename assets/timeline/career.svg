@@ -1,11 +1,141 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390">
-<defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><style>.h{font:700 19px 'Segoe UI',Arial;fill:#f8fafc}.s{font:500 12px 'Segoe UI',Arial;fill:#94a3b8}.i{font:500 13px 'Segoe UI',Arial;fill:#dbeafe}.d{font:700 11px monospace;fill:#67e8f9}</style></defs>
-<rect width="1200" height="390" rx="20" fill="#070b16" stroke="#1e293b"/>
-<path d="M100 195H1100" stroke="#334155" stroke-width="3"/><path d="M100 195H1100" stroke="url(#g)" stroke-width="2" stroke-dasharray="8 16"><animate attributeName="stroke-dashoffset" from="0" to="-160" dur="5s" repeatCount="indefinite"/></path>
-<g fill="#0b1220" stroke="#334155"><rect x="55" y="50" width="315" height="110" rx="16"/><rect x="442" y="230" width="315" height="110" rx="16"/><rect x="830" y="50" width="315" height="110" rx="16"/></g>
-<g fill="#22d3ee"><circle cx="100" cy="195" r="7"><animate attributeName="r" values="6;10;6" dur="2s" repeatCount="indefinite"/></circle><circle cx="600" cy="195" r="7"><animate attributeName="r" values="6;10;6" dur="2.4s" repeatCount="indefinite"/><circle cx="1000" cy="195" r="7"/></circle></g>
-<text x="75" y="82" class="d">02 / 2026 — PRESENT</text><text x="75" y="108" class="h">INNOVER SYSTEMS PVT. LTD.</text><text x="75" y="132" class="s">Cybersecurity Analyst / Purple Team</text><text x="75" y="153" class="i">SOC • Wazuh • VAPT • Detection</text>
-<text x="462" y="262" class="d">07 / 2025 — 10 / 2025</text><text x="462" y="288" class="h">INLIGHTNX GLOBAL PVT. LTD.</text><text x="462" y="312" class="s">Offensive Security Intern</text><text x="462" y="333" class="i">Web security • Python • VAPT</text>
-<text x="850" y="82" class="d">02 / 2023 — 06 / 2023</text><text x="850" y="108" class="h">TECHNOHACKS EDUTECH</text><text x="850" y="132" class="s">Ethical Hacking Intern</text><text x="850" y="153" class="i">Recon • Network • Web Security</text>
-<text x="600" y="40" text-anchor="middle" class="s">SECURITY CAREER PATH</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" width="1200" height="450">
+<defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+        <stop stop-color="#030712"/>
+        <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+
+    <!-- Brand Gradients -->
+    <linearGradient id="cyanPurple" x1="0" x2="1">
+        <stop stop-color="#22d3ee"/>
+        <stop offset="0.5" stop-color="#8b5cf6"/>
+        <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="purpleCyan" x1="0" x2="1">
+        <stop stop-color="#8b5cf6"/>
+        <stop offset="0.5" stop-color="#22d3ee"/>
+        <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+        <feGaussianBlur stdDeviation="5" result="blur"/>
+        <feMerge>
+            <feMergeNode in="blur"/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+
+    <!-- Drop Shadow for Cards -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+        <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+
+    <style>
+        .date { font: 600 12px 'JetBrains Mono', monospace; fill: #22d3ee; letter-spacing: 1px; }
+        .company { font: 800 18px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 0.5px; }
+        .role { font: 600 14px 'Segoe UI', Arial, sans-serif; fill: #a78bfa; }
+        .tech { font: 500 13px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; }
+        .title { font: 700 14px 'Segoe UI', Arial, sans-serif; fill: #64748b; letter-spacing: 4px; }
+    </style>
+</defs>
+
+<!-- Background -->
+<rect width="1200" height="450" rx="24" fill="url(#bg)"/>
+<path d="M 0 0 L 1200 450 M 1200 0 L 0 450" stroke="#1e293b" stroke-width="1" stroke-opacity="0.3"/>
+
+<!-- Header -->
+<text x="600" y="45" text-anchor="middle" class="title">SECURITY CAREER TIMELINE</text>
+
+<!-- Main Horizontal Timeline -->
+<line x1="120" y1="225" x2="1080" y2="225" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+
+<!-- Animated Energy Flow on Timeline -->
+<line x1="120" y1="225" x2="1080" y2="225" stroke="url(#cyanPurple)" stroke-width="3" stroke-linecap="round" stroke-dasharray="15 30">
+    <animate attributeName="stroke-dashoffset" from="90" to="0" dur="3s" repeatCount="indefinite"/>
+</line>
+
+<!-- Traveling Signal Dot (Past to Present) -->
+<circle r="6" fill="#fff" filter="url(#glow)">
+    <animateMotion dur="6s" repeatCount="indefinite" path="M 1080 225 L 120 225"/>
+</circle>
+
+<!-- ==================== NODE 3: TECHNOHACKS (PAST - RIGHT) ==================== -->
+<g>
+    <!-- Connector Line -->
+    <line x1="950" y1="225" x2="950" y2="175" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- Timeline Node Dot -->
+    <circle cx="950" cy="225" r="8" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
+    <circle cx="950" cy="225" r="4" fill="#8b5cf6">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Floating Card -->
+    <g filter="url(#shadow)">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4.5s" repeatCount="indefinite"/>
+        
+        <rect x="790" y="55" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+        <rect x="790" y="55" width="320" height="120" rx="16" fill="none" stroke="url(#purpleCyan)" stroke-width="2" opacity="0.4"/>
+        
+        <text x="815" y="85" class="date">02/2023 — 06/2023</text>
+        <text x="815" y="112" class="company">TECHNOHACKS EDUTECH</text>
+        <text x="815" y="135" class="role">Ethical Hacking Intern</text>
+        <text x="815" y="155" class="tech">Network Recon • VAPT • Web Security</text>
+    </g>
+</g>
+
+<!-- ==================== NODE 2: INLIGHTNX (MID - CENTER) ==================== -->
+<g>
+    <!-- Connector Line -->
+    <line x1="600" y1="225" x2="600" y2="275" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- Timeline Node Dot -->
+    <circle cx="600" cy="225" r="8" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="600" cy="225" r="4" fill="#22d3ee">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Floating Card -->
+    <g filter="url(#shadow)">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,6; 0,0" dur="5s" repeatCount="indefinite"/>
+        
+        <rect x="440" y="275" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+        <rect x="440" y="275" width="320" height="120" rx="16" fill="none" stroke="url(#cyanPurple)" stroke-width="2" opacity="0.6"/>
+        
+        <text x="465" y="305" class="date">07/2025 — 10/2025</text>
+        <text x="465" y="332" class="company">INLIGHTNX GLOBAL PVT.</text>
+        <text x="465" y="355" class="role">Offensive Security Intern</text>
+        <text x="465" y="375" class="tech">Web Security • Python • Vulnerability</text>
+    </g>
+</g>
+
+<!-- ==================== NODE 1: INNOVER (PRESENT - LEFT) ==================== -->
+<g>
+    <!-- Connector Line -->
+    <line x1="250" y1="225" x2="250" y2="175" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+    
+    <!-- Timeline Node Dot (Glowing heavily as it is 'Present') -->
+    <circle cx="250" cy="225" r="10" fill="#0f172a" stroke="#22d3ee" stroke-width="3" filter="url(#glow)"/>
+    <circle cx="250" cy="225" r="5" fill="#22d3ee">
+        <animate attributeName="r" values="4;7;4" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Floating Card -->
+    <g filter="url(#shadow)">
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4s" repeatCount="indefinite"/>
+        
+        <rect x="90" y="55" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
+        <!-- Animated Active Border -->
+        <rect x="90" y="55" width="320" height="120" rx="16" fill="none" stroke="url(#cyanPurple)" stroke-width="2">
+            <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+        </rect>
+        
+        <text x="115" y="85" class="date">02/2026 — PRESENT</text>
+        <text x="115" y="112" class="company">INNOVER SYSTEMS PVT.</text>
+        <text x="115" y="135" class="role">SOC &amp; Red Team Intern</text>
+        <text x="115" y="155" class="tech">SOC • Wazuh • Threat Hunting • VAPT</text>
+    </g>
+</g>
 </svg>
