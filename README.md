@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=150&section=header&text=Ashish%20Patil&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=FFFFFF&desc=Cyber%20Security%20Analyst%20(SOC & SOC & VAPT)&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=150&section=header&text=Ashish%20Patil&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=FFFFFF&desc=Cyber%20Security%20Analyst%20(SOC-VAPT)&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <h1 align="center">
