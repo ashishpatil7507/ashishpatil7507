@@ -1,9 +1,9 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=150&section=header&text=Ashish%20Patil&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=FFFFFF&desc=Cyber%20Security%20Analyst%20(VAPT)&descAlignY=55&descSize=20" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=150&section=header&text=Ashish%20Patil&fontSize=50&fontAlignY=35&animation=twinkling&fontColor=FFFFFF&desc=Cyber%20Security%20Analyst%20(SOC & SOC & VAPT)&descAlignY=55&descSize=20" width="100%"/>
 </div>
 
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=Cyber+Security+Analyst+(VAPT);CEH+v13+Ai+Certified;.py-Scripting+Specialist;Red+Team+%26+Offensive+Security;Threat+Intelligence+%26+SOC+Analyst" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=1000&color=00FF41&center=true&vCenter=true&width=800&lines=Cyber+Security+Analyst+(SOC & VAPT);CEH+v13+Ai+Certified;.py-Scripting+Specialist;Red+Team+%26+Offensive+Security;Threat+Intelligence+%26+SOC+Analyst" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -20,7 +20,7 @@
 <br>
 
 ### ✧ Who Am I?
-> I am a **Cyber Security Analyst (VAPT)** and **Red Team Operator** dedicated to identifying vulnerabilities and fortifying enterprise architectures. Specializing in offensive security, SOC analysis, and threat intelligence, I leverage **.py-Scripting** and advanced SIEM/XDR platforms like Wazuh to automate security operations and hunt threats. 
+> I am a **Cyber Security Analyst (SOC & VAPT)** and **Red Team Operator** dedicated to identifying vulnerabilities and fortifying enterprise architectures. Specializing in offensive security, SOC analysis, and threat intelligence, I leverage **.py-Scripting** and advanced SIEM/XDR platforms like Wazuh to automate security operations and hunt threats. 
 
 <table align="center" width="100%">
   <tr>
@@ -50,7 +50,7 @@
 ### ⚔️ Technical Arsenal
 
 <details open>
-<summary><b>🛡️ Offensive Security & VAPT</b></summary>
+<summary><b>🛡️ Offensive Security & SOC & VAPT</b></summary>
 <br>
 <p>
   <img src="https://img.shields.io/badge/Burp_Suite-FF6F00?style=for-the-badge&logo=burpsuite&logoColor=white" />
@@ -93,9 +93,9 @@
 
 | Role & Organization | Focus Areas | Timeline |
 | :--- | :--- | :--- |
-| **Cybersecurity RED TEAM Intern**<br>@ *Innover Systems Pvt. Ltd.* | OWASP Top 10 VAPT, SQLi, XSS, IDOR, Web App Penetration Testing | Feb 2026 – Present |
+| **Cybersecurity RED TEAM Intern**<br>@ *Innover Systems Pvt. Ltd.* | OWASP Top 10 SOC & VAPT, SQLi, XSS, IDOR, Web App Penetration Testing | Feb 2026 – Present |
 | **Offensive Security Intern**<br>@ *InLighnX Global Pvt. Ltd.* | Custom .py-Scripting, Web App Pentesting (15+ Vulns Discovered) | Jul 2025 – Oct 2025 |
-| **Ethical Hacking Intern**<br>@ *TechnoHacks EduTech* | Network Scanning (100+ hosts), VAPT on 15+ Web Applications | Feb 2023 – Jun 2023 |
+| **Ethical Hacking Intern**<br>@ *TechnoHacks EduTech* | Network Scanning (100+ hosts), SOC & VAPT on 15+ Web Applications | Feb 2023 – Jun 2023 |
 
 <br>
 
