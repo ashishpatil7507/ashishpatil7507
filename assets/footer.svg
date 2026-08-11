@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="110" viewBox="0 0 1400 110">
-<defs><linearGradient id="g"><stop stop-color="#00FF41"/><stop offset="1" stop-color="#00C7B7"/></linearGradient></defs>
-<rect width="1400" height="110" fill="#0D1117"/>
-<path d="M0 72 Q350 18 700 72 T1400 62" fill="none" stroke="url(#g)" stroke-width="2"/>
-<text x="700" y="38" text-anchor="middle" fill="#00FF41" font-family="monospace" font-size="12" letter-spacing="3">SECURITY OPERATIONS // VISIBILITY // RESILIENCE</text>
-<circle cx="180" cy="67" r="4" fill="#00FF41"><animate attributeName="opacity" values=".2;1;.2" dur="1.3s" repeatCount="indefinite"/></circle>
-<circle cx="1220" cy="60" r="4" fill="#00C7B7"><animate attributeName="opacity" values="1;.2;1" dur="1.7s" repeatCount="indefinite"/></circle>
-</svg>
