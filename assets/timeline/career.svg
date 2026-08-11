@@ -18,9 +18,9 @@
         <stop offset="1" stop-color="#8b5cf6"/>
     </linearGradient>
 
-    <!-- Glow Filter -->
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur stdDeviation="5" result="blur"/>
+    <!-- High-Performance Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="4" result="blur"/>
         <feMerge>
             <feMergeNode in="blur"/>
             <feMergeNode in="SourceGraphic"/>
@@ -28,8 +28,8 @@
     </filter>
 
     <!-- Drop Shadow for Cards -->
-    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
-        <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+        <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000" flood-opacity="0.7"/>
     </filter>
 
     <style>
@@ -41,101 +41,141 @@
     </style>
 </defs>
 
-<!-- Background -->
+<!-- Background & Border -->
 <rect width="1200" height="450" rx="24" fill="url(#bg)"/>
 <path d="M 0 0 L 1200 450 M 1200 0 L 0 450" stroke="#1e293b" stroke-width="1" stroke-opacity="0.3"/>
 
 <!-- Header -->
 <text x="600" y="45" text-anchor="middle" class="title">SECURITY CAREER TIMELINE</text>
 
-<!-- Main Horizontal Timeline -->
+<!-- Main Horizontal Timeline Track -->
 <line x1="120" y1="225" x2="1080" y2="225" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
 
-<!-- Animated Energy Flow on Timeline -->
-<line x1="120" y1="225" x2="1080" y2="225" stroke="url(#cyanPurple)" stroke-width="3" stroke-linecap="round" stroke-dasharray="15 30">
-    <animate attributeName="stroke-dashoffset" from="90" to="0" dur="3s" repeatCount="indefinite"/>
+<!-- Subtle Ambient Energy Flow on Timeline -->
+<line x1="120" y1="225" x2="1080" y2="225" stroke="#334155" stroke-width="2" stroke-linecap="round" stroke-dasharray="10 20">
+    <animate attributeName="stroke-dashoffset" from="60" to="0" dur="4s" repeatCount="indefinite"/>
 </line>
 
-<!-- Traveling Signal Dot (Past to Present) -->
-<circle r="6" fill="#fff" filter="url(#glow)">
-    <animateMotion dur="6s" repeatCount="indefinite" path="M 1080 225 L 120 225"/>
+<!-- Sequential Traveling Signal Dot -->
+<!-- 12 Second Loop: Dot moves, stops at each node, then repeats -->
+<circle cy="225" r="7" fill="#ffffff" filter="url(#glow)">
+    <animate attributeName="cx" 
+             values="1080; 950; 950; 600; 600; 250; 250; 120" 
+             keyTimes="0; 0.1; 0.25; 0.41; 0.58; 0.75; 0.92; 1" 
+             keySplines="0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1; 0 0 1 1; 0.4 0 0.2 1"
+             calcMode="spline"
+             dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="r" 
+             values="4; 8; 8; 4; 4; 8; 8; 4; 4; 8; 8; 4; 4" 
+             keyTimes="0; 0.1; 0.25; 0.28; 0.38; 0.41; 0.58; 0.61; 0.72; 0.75; 0.92; 0.95; 1" 
+             dur="12s" repeatCount="indefinite"/>
 </circle>
+
 
 <!-- ==================== NODE 3: TECHNOHACKS (PAST - RIGHT) ==================== -->
 <g>
-    <!-- Connector Line -->
-    <line x1="950" y1="225" x2="950" y2="175" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+    <!-- Connector Line (Pulses when active) -->
+    <line x1="950" y1="225" x2="950" y2="175" stroke="#8b5cf6" stroke-width="2" stroke-dasharray="4 4">
+        <animate attributeName="opacity" values="0.2; 1; 1; 0.2; 0.2" keyTimes="0; 0.1; 0.25; 0.3; 1" dur="12s" repeatCount="indefinite"/>
+    </line>
     
-    <!-- Timeline Node Dot -->
+    <!-- Timeline Node Dot (Pulses when active) -->
     <circle cx="950" cy="225" r="8" fill="#0f172a" stroke="#8b5cf6" stroke-width="3"/>
-    <circle cx="950" cy="225" r="4" fill="#8b5cf6">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2.5s" repeatCount="indefinite"/>
+    <circle cx="950" cy="225" fill="#8b5cf6">
+        <animate attributeName="r" values="3; 9; 9; 3; 3" keyTimes="0; 0.1; 0.25; 0.3; 1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2; 1; 1; 0.2; 0.2" keyTimes="0; 0.1; 0.25; 0.3; 1" dur="12s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Floating Card -->
-    <g filter="url(#shadow)">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4.5s" repeatCount="indefinite"/>
-        
-        <rect x="790" y="55" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
-        <rect x="790" y="55" width="320" height="120" rx="16" fill="none" stroke="url(#purpleCyan)" stroke-width="2" opacity="0.4"/>
-        
-        <text x="815" y="85" class="date">02/2023 — 06/2023</text>
-        <text x="815" y="112" class="company">TECHNOHACKS EDUTECH</text>
-        <text x="815" y="135" class="role">Ethical Hacking Intern</text>
-        <text x="815" y="155" class="tech">Network Recon • VAPT • Web Security</text>
+    <!-- Floating Card Base Coordinates -->
+    <g transform="translate(950, 115)"> 
+        <g>
+            <!-- Ambient Float -->
+            <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4.5s" repeatCount="indefinite"/>
+            <g>
+                <!-- Pop Scale Animation (Active 0.1 to 0.25) -->
+                <animateTransform attributeName="transform" type="scale" values="1; 1.08; 1.08; 1; 1" keyTimes="0; 0.12; 0.25; 0.28; 1" dur="12s" repeatCount="indefinite"/>
+                
+                <rect x="-160" y="-60" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+                
+                <!-- Animated Highlight Border -->
+                <rect x="-160" y="-60" width="320" height="120" rx="16" fill="none" stroke="url(#purpleCyan)" stroke-width="2">
+                    <animate attributeName="opacity" values="0.3; 1; 1; 0.3; 0.3" keyTimes="0; 0.1; 0.25; 0.28; 1" dur="12s" repeatCount="indefinite"/>
+                </rect>
+                
+                <text x="-135" y="-30" class="date">02/2023 — 06/2023</text>
+                <text x="-135" y="-3" class="company">TECHNOHACKS EDUTECH</text>
+                <text x="-135" y="20" class="role" fill="#8b5cf6">Ethical Hacking Intern</text>
+                <text x="-135" y="40" class="tech">Network Recon • VAPT • Web Security</text>
+            </g>
+        </g>
     </g>
 </g>
 
 <!-- ==================== NODE 2: INLIGHTNX (MID - CENTER) ==================== -->
 <g>
-    <!-- Connector Line -->
-    <line x1="600" y1="225" x2="600" y2="275" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="600" y1="225" x2="600" y2="275" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4">
+        <animate attributeName="opacity" values="0.2; 0.2; 1; 1; 0.2; 0.2" keyTimes="0; 0.38; 0.41; 0.58; 0.61; 1" dur="12s" repeatCount="indefinite"/>
+    </line>
     
-    <!-- Timeline Node Dot -->
     <circle cx="600" cy="225" r="8" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
-    <circle cx="600" cy="225" r="4" fill="#22d3ee">
-        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+    <circle cx="600" cy="225" fill="#22d3ee">
+        <animate attributeName="r" values="3; 3; 9; 9; 3; 3" keyTimes="0; 0.38; 0.41; 0.58; 0.61; 1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2; 0.2; 1; 1; 0.2; 0.2" keyTimes="0; 0.38; 0.41; 0.58; 0.61; 1" dur="12s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Floating Card -->
-    <g filter="url(#shadow)">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,6; 0,0" dur="5s" repeatCount="indefinite"/>
-        
-        <rect x="440" y="275" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
-        <rect x="440" y="275" width="320" height="120" rx="16" fill="none" stroke="url(#cyanPurple)" stroke-width="2" opacity="0.6"/>
-        
-        <text x="465" y="305" class="date">07/2025 — 10/2025</text>
-        <text x="465" y="332" class="company">INLIGHTNX GLOBAL PVT.</text>
-        <text x="465" y="355" class="role">Offensive Security Intern</text>
-        <text x="465" y="375" class="tech">Web Security • Python • Vulnerability</text>
+    <g transform="translate(600, 335)">
+        <g>
+            <animateTransform attributeName="transform" type="translate" values="0,0; 0,6; 0,0" dur="5s" repeatCount="indefinite"/>
+            <g>
+                <!-- Pop Scale Animation (Active 0.41 to 0.58) -->
+                <animateTransform attributeName="transform" type="scale" values="1; 1; 1.08; 1.08; 1; 1" keyTimes="0; 0.41; 0.44; 0.58; 0.61; 1" dur="12s" repeatCount="indefinite"/>
+                
+                <rect x="-160" y="-60" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+                
+                <rect x="-160" y="-60" width="320" height="120" rx="16" fill="none" stroke="url(#cyanPurple)" stroke-width="2">
+                    <animate attributeName="opacity" values="0.3; 0.3; 1; 1; 0.3; 0.3" keyTimes="0; 0.41; 0.44; 0.58; 0.61; 1" dur="12s" repeatCount="indefinite"/>
+                </rect>
+                
+                <text x="-135" y="-30" class="date">07/2025 — 10/2025</text>
+                <text x="-135" y="-3" class="company">INLIGHTNX GLOBAL PVT.</text>
+                <text x="-135" y="20" class="role" fill="#22d3ee">Offensive Security Intern</text>
+                <text x="-135" y="40" class="tech">Web Security • Python • Vulnerability</text>
+            </g>
+        </g>
     </g>
 </g>
 
 <!-- ==================== NODE 1: INNOVER (PRESENT - LEFT) ==================== -->
 <g>
-    <!-- Connector Line -->
-    <line x1="250" y1="225" x2="250" y2="175" stroke="#475569" stroke-width="2" stroke-dasharray="4 4"/>
+    <line x1="250" y1="225" x2="250" y2="175" stroke="#22d3ee" stroke-width="2" stroke-dasharray="4 4">
+        <animate attributeName="opacity" values="0.2; 0.2; 1; 1; 0.2; 0.2" keyTimes="0; 0.72; 0.75; 0.92; 0.95; 1" dur="12s" repeatCount="indefinite"/>
+    </line>
     
-    <!-- Timeline Node Dot (Glowing heavily as it is 'Present') -->
-    <circle cx="250" cy="225" r="10" fill="#0f172a" stroke="#22d3ee" stroke-width="3" filter="url(#glow)"/>
-    <circle cx="250" cy="225" r="5" fill="#22d3ee">
-        <animate attributeName="r" values="4;7;4" dur="1.5s" repeatCount="indefinite"/>
+    <circle cx="250" cy="225" r="8" fill="#0f172a" stroke="#22d3ee" stroke-width="3"/>
+    <circle cx="250" cy="225" fill="#22d3ee">
+        <animate attributeName="r" values="3; 3; 10; 10; 3; 3" keyTimes="0; 0.72; 0.75; 0.92; 0.95; 1" dur="12s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.2; 0.2; 1; 1; 0.2; 0.2" keyTimes="0; 0.72; 0.75; 0.92; 0.95; 1" dur="12s" repeatCount="indefinite"/>
     </circle>
 
-    <!-- Floating Card -->
-    <g filter="url(#shadow)">
-        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4s" repeatCount="indefinite"/>
-        
-        <rect x="90" y="55" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2"/>
-        <!-- Animated Active Border -->
-        <rect x="90" y="55" width="320" height="120" rx="16" fill="none" stroke="url(#cyanPurple)" stroke-width="2">
-            <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
-        </rect>
-        
-        <text x="115" y="85" class="date">02/2026 — PRESENT</text>
-        <text x="115" y="112" class="company">INNOVER SYSTEMS PVT.</text>
-        <text x="115" y="135" class="role">SOC &amp; Red Team Intern</text>
-        <text x="115" y="155" class="tech">SOC • Wazuh • Threat Hunting • VAPT</text>
+    <g transform="translate(250, 115)">
+        <g>
+            <animateTransform attributeName="transform" type="translate" values="0,0; 0,-6; 0,0" dur="4s" repeatCount="indefinite"/>
+            <g>
+                <!-- Pop Scale Animation (Active 0.75 to 0.92) -->
+                <animateTransform attributeName="transform" type="scale" values="1; 1; 1.08; 1.08; 1; 1" keyTimes="0; 0.75; 0.78; 0.92; 0.95; 1" dur="12s" repeatCount="indefinite"/>
+                
+                <rect x="-160" y="-60" width="320" height="120" rx="16" fill="#0f172a" stroke="#1e293b" stroke-width="2" filter="url(#shadow)"/>
+                
+                <rect x="-160" y="-60" width="320" height="120" rx="16" fill="none" stroke="url(#cyanPurple)" stroke-width="3" filter="url(#glow)">
+                    <animate attributeName="opacity" values="0.3; 0.3; 1; 1; 0.3; 0.3" keyTimes="0; 0.75; 0.78; 0.92; 0.95; 1" dur="12s" repeatCount="indefinite"/>
+                </rect>
+                
+                <text x="-135" y="-30" class="date">02/2026 — PRESENT</text>
+                <text x="-135" y="-3" class="company">INNOVER SYSTEMS PVT.</text>
+                <text x="-135" y="20" class="role" fill="#22d3ee">SOC &amp; Red Team Intern</text>
+                <text x="-135" y="40" class="tech">SOC • Wazuh • Threat Hunting • VAPT</text>
+            </g>
+        </g>
     </g>
 </g>
 </svg>
