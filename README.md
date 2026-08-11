@@ -20,7 +20,9 @@
 </div>
 
 
-c
+
+<div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
+
 ## Security Profile
 
 > **Cybersecurity Analyst focused on connecting offensive security with defensive engineering — from finding weaknesses to building the visibility and detections needed to understand them.**
@@ -109,8 +111,6 @@ My current focus spans **SOC operations, Wazuh SIEM/XDR, detection engineering, 
 
 <div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
-
-<div align="center"><img src="./assets/dividers/flow.svg" width="100%" alt="Animated divider"/></div>
 
 ## Experience
 
