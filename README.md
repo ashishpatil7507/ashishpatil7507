@@ -9,7 +9,7 @@
 <a href="https://github.com/ashishpatil7507"><img src="https://img.shields.io/badge/GitHub-Profile-161B22?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
 <a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/Portfolio-Explore-00A6A6?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio"/></a>
 
-<br><br>
+
 
 <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=700&size=21&pause=1200&color=22D3EE&center=true&vCenter=true&width=920&lines=CYBERSECURITY+ANALYST;SOC+%7C+SIEM%2FXDR+%7C+DETECTION+ENGINEERING;WEB+APPLICATION+SECURITY+%7C+VAPT;THREAT+HUNTING+%7C+SECURITY+AUTOMATION" alt="Animated cybersecurity focus"/>
 
