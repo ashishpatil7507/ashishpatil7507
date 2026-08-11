@@ -186,12 +186,7 @@ Worked on network reconnaissance, scanning and practical web-security testing.
 
 <br><br>
 
-<a href="https://github.com/ashishpatil7507">
-  <img
-    height="170"
-    src="https://github-readme-stats.vercel.app/api?username=ashishpatil7507&show_icons=true&hide_border=true&rank_icon=github&bg_color=050B14&title_color=22D3EE&icon_color=8B5CF6&text_color=C9D1D9"
-    alt="GitHub statistics"
-  />
+
 </a>
 &nbsp;
 <a href="https://github.com/ashishpatil7507">
