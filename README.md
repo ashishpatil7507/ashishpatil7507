@@ -93,7 +93,7 @@
 
 | Role & Organization | Focus Areas | Timeline |
 | :--- | :--- | :--- |
-| **Cybersecurity RED TEAM Intern**<br>@ *Innover Systems Pvt. Ltd.* | OWASP Top 10 SOC & VAPT, SQLi, XSS, IDOR, Web App Penetration Testing | Feb 2026 – Present |
+| **Cybersecurity Analyst & PURPLE TEAM  **<br>@ *Innover Systems Pvt. Ltd.* | OWASP Top 10 SOC & VAPT, SQLi, XSS, IDOR, Web App Penetration Testing | Feb 2026 – Present |
 | **Offensive Security Intern**<br>@ *InLighnX Global Pvt. Ltd.* | Custom .py-Scripting, Web App Pentesting (15+ Vulns Discovered) | Jul 2025 – Oct 2025 |
 | **Ethical Hacking Intern**<br>@ *TechnoHacks EduTech* | Network Scanning (100+ hosts), SOC & VAPT on 15+ Web Applications | Feb 2023 – Jun 2023 |
 
