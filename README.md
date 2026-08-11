@@ -205,13 +205,6 @@ Worked on network reconnaissance, scanning and practical web-security testing.
   alt="GitHub contribution summary"
 />
 
-<br><br>
-
-<img
-  src="https://github-readme-activity-graph.vercel.app/graph?username=ashishpatil7507&theme=github-compact&hide_border=true&area=true&color=22d3ee&line=8b5cf6&point=ffffff"
-  width="96%"
-  alt="GitHub activity graph"
-/>
 
 </div>
 
