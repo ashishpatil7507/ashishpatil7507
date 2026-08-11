@@ -1,25 +1,183 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390">
 <defs>
- <linearGradient id="bg" x1="0" x2="1"><stop stop-color="#070b16"/><stop offset="1" stop-color="#0c1222"/></linearGradient>
- <linearGradient id="line" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
- <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
- <style>.h{font:700 21px 'Segoe UI',Arial;fill:#f8fafc;letter-spacing:1px}.s{font:500 12px 'Segoe UI',Arial;fill:#94a3b8}.i{font:500 14px 'Segoe UI',Arial;fill:#dbeafe}.c{fill:#22d3ee}</style>
+    <!-- Deep Cyber Gradients -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030712"/><stop offset="1" stop-color="#0b1220"/></linearGradient>
+    <linearGradient id="scanLine" x1="0" x2="1"><stop stop-color="#22d3ee" stop-opacity="0"/><stop offset=".5" stop-color="#22d3ee" stop-opacity="0.8"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></linearGradient>
+    <linearGradient id="scanLinePurple" x1="0" x2="1"><stop stop-color="#8b5cf6" stop-opacity="0"/><stop offset=".5" stop-color="#8b5cf6" stop-opacity="0.8"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/></linearGradient>
+    <linearGradient id="packet" x1="0" x2="1"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+
+    <!-- Filters & Glows -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+        <feGaussianBlur stdDeviation="4" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/></filter>
+
+    <!-- Card Clipping Paths for the Internal Scanners -->
+    <clipPath id="clip1"><rect x="45" y="95" width="250" height="245" rx="16"/></clipPath>
+    <clipPath id="clip2"><rect x="325" y="95" width="250" height="245" rx="16"/></clipPath>
+    <clipPath id="clip3"><rect x="605" y="95" width="250" height="245" rx="16"/></clipPath>
+    <clipPath id="clip4"><rect x="885" y="95" width="270" height="245" rx="16"/></clipPath>
+
+    <style>
+        .title { font: 800 24px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 2px; }
+        .subtitle { font: 600 12px 'JetBrains Mono', monospace; fill: #94a3b8; letter-spacing: 1px; }
+        .h { font: 700 19px 'Segoe UI', Arial, sans-serif; fill: #f8fafc; letter-spacing: 1px; }
+        .s { font: 600 12px 'Segoe UI', Arial, sans-serif; fill: #94a3b8; }
+        .i { font: 500 13.5px 'Segoe UI', Arial, sans-serif; fill: #cbd5e1; }
+        .bullet { fill: #22d3ee; }
+    </style>
 </defs>
-<rect width="1200" height="390" rx="20" fill="url(#bg)" stroke="#1e293b"/>
-<text x="600" y="42" text-anchor="middle" class="h">SECURITY CORE</text>
-<text x="600" y="63" text-anchor="middle" class="s">four operating layers that connect offensive testing with defensive visibility</text>
-<g stroke="#334155" fill="#080e1c">
- <rect x="45" y="95" width="250" height="245" rx="16"/><rect x="325" y="95" width="250" height="245" rx="16"/><rect x="605" y="95" width="250" height="245" rx="16"/><rect x="885" y="95" width="270" height="245" rx="16"/>
+
+<!-- Main Background -->
+<rect width="1200" height="390" rx="22" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+
+<!-- Header Typography -->
+<text x="600" y="45" text-anchor="middle" class="title">SECURITY OPERATIONS ARCHITECTURE</text>
+<text x="600" y="68" text-anchor="middle" class="subtitle">ENTERPRISE TELEMETRY // DETECTION ENGINEERING // OFFENSIVE VALIDATION</text>
+
+<!-- Inter-module Static Connection Lines -->
+<g stroke="#1e293b" stroke-width="3">
+    <path d="M295 217H325"/>
+    <path d="M575 217H605"/>
+    <path d="M855 217H885"/>
 </g>
-<g stroke="url(#line)" stroke-width="2"><path d="M295 217H325"/><path d="M575 217H605"/><path d="M855 217H885"/></g>
-<g filter="url(#glow)"><circle cx="170" cy="118" r="4" class="c"/><circle cx="450" cy="118" r="4" class="c"/><circle cx="730" cy="118" r="4" class="c"/><circle cx="1020" cy="118" r="4" class="c"/></g>
-<text x="70" y="145" class="h">01 / VISIBILITY</text><text x="70" y="168" class="s">Telemetry &amp; context</text>
-<text x="70" y="202" class="i">• Wazuh SIEM/XDR</text><text x="70" y="230" class="i">• Sysmon endpoints</text><text x="70" y="258" class="i">• Firewall / syslog</text><text x="70" y="286" class="i">• OpenSearch data</text>
-<text x="350" y="145" class="h">02 / DETECTION</text><text x="350" y="168" class="s">Rules &amp; engineering</text>
-<text x="350" y="202" class="i">• Custom decoders</text><text x="350" y="230" class="i">• Detection rules</text><text x="350" y="258" class="i">• Alert tuning</text><text x="350" y="286" class="i">• Security dashboards</text>
-<text x="630" y="145" class="h">03 / OFFENSE</text><text x="630" y="168" class="s">Validate the attack surface</text>
-<text x="630" y="202" class="i">• OWASP Top 10</text><text x="630" y="230" class="i">• Web VAPT</text><text x="630" y="258" class="i">• Recon &amp; enumeration</text><text x="630" y="286" class="i">• Vulnerability validation</text>
-<text x="910" y="145" class="h">04 / RESPONSE</text><text x="910" y="168" class="s">Investigate &amp; improve</text>
-<text x="910" y="202" class="i">• Threat hunting</text><text x="910" y="230" class="i">• Investigation workflows</text><text x="910" y="258" class="i">• Security automation</text><text x="910" y="286" class="i">• Hardening feedback</text>
-<path d="M60 365H1140" stroke="url(#line)" stroke-width="1.5" stroke-dasharray="6 12"><animate attributeName="stroke-dashoffset" from="0" to="-180" dur="6s" repeatCount="indefinite"/></path>
+
+<!-- Animated Data Packets (Flowing between modules) -->
+<g filter="url(#glow)">
+    <!-- Packet 1: Vis -> Det -->
+    <rect x="295" y="215" width="12" height="4" rx="2" fill="url(#packet)">
+        <animate attributeName="x" values="295;313;295" dur="1.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Packet 2: Det -> Off -->
+    <rect x="575" y="215" width="12" height="4" rx="2" fill="url(#packet)">
+        <animate attributeName="x" values="575;593;575" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="0.5s" repeatCount="indefinite"/>
+    </rect>
+    <!-- Packet 3: Off -> Res -->
+    <rect x="855" y="215" width="12" height="4" rx="2" fill="url(#packet)">
+        <animate attributeName="x" values="855;873;855" dur="1.5s" begin="1s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0;1;0" dur="1.5s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+</g>
+
+<!-- ========================================== -->
+<!-- MODULE 1: VISIBILITY                       -->
+<!-- ========================================== -->
+<g filter="url(#shadow)">
+    <!-- Card Base -->
+    <rect x="45" y="95" width="250" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
+    <!-- Animated Vertical Sensor Scan -->
+    <g clip-path="url(#clip1)">
+        <rect x="45" y="95" width="250" height="4" fill="url(#scanLine)" filter="url(#glow)">
+            <animate attributeName="y" values="95;340;95" dur="4s" repeatCount="indefinite"/>
+        </rect>
+    </g>
+    
+    <!-- Top Indicator Light -->
+    <circle cx="170" cy="118" r="4" fill="#22d3ee" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <!-- Content -->
+    <text x="70" y="145" class="h">01 / VISIBILITY</text>
+    <text x="70" y="168" class="s">Enterprise Telemetry</text>
+    
+    <circle cx="75" cy="197" r="3" class="bullet"/> <text x="88" y="202" class="i">Wazuh SIEM/XDR on AWS</text>
+    <circle cx="75" cy="225" r="3" class="bullet"/> <text x="88" y="230" class="i">Multi-Agent Deployment</text>
+    <circle cx="75" cy="253" r="3" class="bullet"/> <text x="88" y="258" class="i">Sysmon &amp; Event Logs</text>
+    <circle cx="75" cy="281" r="3" class="bullet"/> <text x="88" y="286" class="i">Log Validation Pipelines</text>
+</g>
+
+<!-- ========================================== -->
+<!-- MODULE 2: DETECTION                        -->
+<!-- ========================================== -->
+<g filter="url(#shadow)">
+    <rect x="325" y="95" width="250" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
+    <g clip-path="url(#clip2)">
+        <rect x="325" y="95" width="250" height="4" fill="url(#scanLinePurple)" filter="url(#glow)">
+            <animate attributeName="y" values="340;95;340" dur="5s" repeatCount="indefinite"/>
+        </rect>
+    </g>
+    
+    <circle cx="450" cy="118" r="4" fill="#8b5cf6" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    
+    <text x="350" y="145" class="h">02 / DETECTION</text>
+    <text x="350" y="168" class="s">Custom Engineering</text>
+    
+    <circle cx="355" cy="197" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="202" class="i">Custom XML Logic Rules</text>
+    <circle cx="355" cy="225" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="230" class="i">INNO SOC Dashboarding</text>
+    <circle cx="355" cy="253" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="258" class="i">False Positive Tuning</text>
+    <circle cx="355" cy="281" r="3" class="bullet" fill="#8b5cf6"/> <text x="368" y="286" class="i">Threat Hunting Queries</text>
+</g>
+
+<!-- ========================================== -->
+<!-- MODULE 3: OFFENSE                          -->
+<!-- ========================================== -->
+<g filter="url(#shadow)">
+    <rect x="605" y="95" width="250" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
+    <g clip-path="url(#clip3)">
+        <rect x="605" y="95" width="250" height="4" fill="url(#scanLine)" filter="url(#glow)">
+            <animate attributeName="y" values="95;340;95" dur="4.5s" repeatCount="indefinite"/>
+        </rect>
+    </g>
+
+    <circle cx="730" cy="118" r="4" fill="#22d3ee" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    
+    <text x="630" y="145" class="h">03 / OFFENSE</text>
+    <text x="630" y="168" class="s">Validate &amp; Penetrate</text>
+    
+    <circle cx="635" cy="197" r="3" class="bullet"/> <text x="648" y="202" class="i">Mobile App VAPT</text>
+    <circle cx="635" cy="225" r="3" class="bullet"/> <text x="648" y="230" class="i">MobSF, Frida &amp; Burp</text>
+    <circle cx="635" cy="253" r="3" class="bullet"/> <text x="648" y="258" class="i">OWASP Mobile Top 10</text>
+    <circle cx="635" cy="281" r="3" class="bullet"/> <text x="648" y="286" class="i">Static/Dynamic Analysis</text>
+</g>
+
+<!-- ========================================== -->
+<!-- MODULE 4: RESPONSE                         -->
+<!-- ========================================== -->
+<g filter="url(#shadow)">
+    <rect x="885" y="95" width="270" height="245" rx="16" fill="#080e1c" stroke="#334155" stroke-width="1.5"/>
+    <g clip-path="url(#clip4)">
+        <rect x="885" y="95" width="270" height="4" fill="url(#scanLinePurple)" filter="url(#glow)">
+            <animate attributeName="y" values="340;95;340" dur="3.8s" repeatCount="indefinite"/>
+        </rect>
+    </g>
+
+    <circle cx="1020" cy="118" r="4" fill="#8b5cf6" filter="url(#glow)">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    
+    <text x="910" y="145" class="h">04 / RESPONSE</text>
+    <text x="910" y="168" class="s">Investigate &amp; Harden</text>
+    
+    <circle cx="915" cy="197" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="202" class="i">Executive Layer Tracking</text>
+    <circle cx="915" cy="225" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="230" class="i">Endpoint Monitoring</text>
+    <circle cx="915" cy="253" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="258" class="i">Defensive Hardening</text>
+    <circle cx="915" cy="281" r="3" class="bullet" fill="#8b5cf6"/> <text x="928" y="286" class="i">Lifecycle Reporting</text>
+</g>
+
+<!-- ========================================== -->
+<!-- ADVANCED BOTTOM DATA STREAM                -->
+<!-- ========================================== -->
+<g transform="translate(0, 370)">
+    <!-- Tech node design on the left/right of the line -->
+    <path d="M45 -5 L55 0 L45 5 Z" fill="#22d3ee" filter="url(#glow)"/>
+    <path d="M1155 -5 L1145 0 L1155 5 Z" fill="#8b5cf6" filter="url(#glow)"/>
+    
+    <!-- Complex dual-layer animated track -->
+    <path d="M 65 0 H 1135" stroke="#1e293b" stroke-width="2"/>
+    <path d="M 65 0 H 1135" stroke="url(#packet)" stroke-width="2.5" stroke-dasharray="80 240" filter="url(#glow)">
+        <animate attributeName="stroke-dashoffset" from="320" to="0" dur="4s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 65 0 H 1135" stroke="#ffffff" stroke-width="1" stroke-dasharray="10 150" opacity="0.8">
+        <animate attributeName="stroke-dashoffset" from="160" to="0" dur="2s" repeatCount="indefinite"/>
+    </path>
+</g>
+
 </svg>
