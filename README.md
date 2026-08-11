@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:00C7B7,100:00FF41&height=220&section=header&text=ASHISH%20PATIL&fontSize=64&fontAlignY=35&animation=twinkling&fontColor=FFFFFF&desc=CYBERSECURITY%20%7C%20SOC%20%7C%20VAPT%20%7C%20DETECTION%20ENGINEERING&descAlignY=58&descSize=18" width="100%" alt="Ashish Patil Cybersecurity"/>
+<img src="./assets/system/cyber-header.svg" width="100%" alt="Ashish Patil Cyber Command Center"/>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=25&pause=1100&color=00FF41&center=true&vCenter=true&width=950&lines=Cybersecurity+Analyst;SOC+%7C+SIEM%2FXDR+%7C+Threat+Hunting;VAPT+%7C+Web+Application+Security;Detection+Engineering+%7C+Security+Automation;Offensive+Mindset.+Defensive+Execution." alt="Typing introduction"/>
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=26&pause=900&color=00FF41&center=true&vCenter=true&width=950&lines=CYBERSECURITY+ANALYST;SOC+%7C+SIEM%2FXDR+%7C+THREAT+HUNTING;VAPT+%7C+WEB+APPLICATION+SECURITY;DETECTION+ENGINEERING+%7C+SECURITY+AUTOMATION;OFFENSIVE+MINDSET.+DEFENSIVE+EXECUTION." alt="Animated cybersecurity roles"/>
 
 <br>
 
@@ -12,7 +14,6 @@
 <a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/PORTFOLIO-00C7B7?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 
 <br><br>
-
 <img src="https://komarev.com/ghpvc/?username=ashishpatil7507&style=for-the-badge&color=00C7B7&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
@@ -20,278 +21,214 @@
 ---
 
 <div align="center">
-
-### `SECURITY OPERATIONS // DETECTION // OFFENSE`
-
-<img src="https://raw.githubusercontent.com/ashishpatil7507/ashishpatil7507/main/assets/divider.gif" width="100%" onerror="this.style.display='none'" />
-
+<img src="./assets/dividers/cyber-circuit.svg" width="100%" alt="Animated cyber circuit divider"/>
 </div>
 
-## 🧬 Security Identity
-
-> **Cybersecurity Analyst** focused on **SOC operations, SIEM/XDR, VAPT, threat hunting and detection engineering**.  
-> I combine an offensive-security mindset with defensive monitoring to turn security telemetry into **actionable detections, investigations and security improvements**.
+## ◈ SYSTEM ACCESS
 
 <div align="center">
-
-| 🛡️ SOC | ⚔️ VAPT | 🔎 Detection | ⚙️ Automation | ☁️ Cloud |
-|:---:|:---:|:---:|:---:|:---:|
-| SIEM / XDR | OWASP Top 10 | Rules & Decoders | Python / PowerShell | AWS / EC2 |
-| Threat Hunting | Web Security | Sysmon | Bash | Security Monitoring |
-| Incident Analysis | Recon & Testing | MITRE ATT&CK | Security Tooling | Infrastructure |
-
+<img src="./assets/system/system-access.svg" width="96%" alt="System access panel"/>
 </div>
 
----
-
-## ⚡ Security Operations Center
-
-<div align="center">
-
-```text
-                    ┌─────────────────────┐
-                    │    SECURITY DATA    │
-                    │ Endpoint • Network  │
-                    │ Firewall • Sysmon   │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │       WAZUH         │
-                    │    SIEM / XDR       │
-                    └──────────┬──────────┘
-                               │
-                ┌──────────────┼──────────────┐
-                ▼              ▼              ▼
-           DETECTION       CORRELATION     HUNTING
-                │              │              │
-                └──────────────┼──────────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │    INVESTIGATION    │
-                    │  Triage • Analysis  │
-                    └──────────┬──────────┘
-                               ▼
-                    ┌─────────────────────┐
-                    │ RESPONSE / IMPROVE  │
-                    └─────────────────────┘
-```
-
-</div>
-
-### What I build and operate
-
-- **Wazuh SIEM/XDR** monitoring and security visibility
-- Custom **decoders and detection rules**
-- Windows endpoint telemetry and **Sysmon**
-- Firewall/syslog ingestion and analysis
-- Threat-focused dashboards and operational visualizations
-- Detection tuning and alert-noise reduction
-- Authentication, process, network and endpoint investigations
-- RBAC-oriented SOC workflows
-- Security reporting and operational monitoring
-
----
-
-## ⚔️ Offensive Security
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/OWASP%20TOP%2010-000000?style=for-the-badge&logo=owasp&logoColor=white"/>
-<img src="https://img.shields.io/badge/WEB%20VAPT-8B0000?style=for-the-badge&logo=hackthebox&logoColor=white"/>
-<img src="https://img.shields.io/badge/RECONNAISSANCE-4B0082?style=for-the-badge&logo=nmap&logoColor=white"/>
-<img src="https://img.shields.io/badge/SECURITY%20VALIDATION-006400?style=for-the-badge&logo=checkmarx&logoColor=white"/>
-
-</div>
-
-**Security testing areas**
-
-`SQL Injection` · `XSS` · `IDOR` · `Authentication` · `Authorization` · `Reconnaissance` · `Attack Surface Discovery` · `Manual Web Testing`
-
----
-
-## 🧰 Technical Arsenal
-
-<details open>
-<summary><b>🛡️ SOC / SIEM / Detection</b></summary>
 <br>
 
-<p align="center">
-<img src="https://img.shields.io/badge/Wazuh-005571?style=for-the-badge&logo=wazuh&logoColor=white"/>
-<img src="https://img.shields.io/badge/Sysmon-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenSearch-005EB8?style=for-the-badge&logo=opensearch&logoColor=white"/>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/MITRE%20ATT%26CK-000000?style=for-the-badge&logo=mitre&logoColor=white"/>
-</p>
+<div align="center">
+<img src="./assets/system/cyber-core.svg" width="96%" alt="Cybersecurity core"/>
+</div>
 
-</details>
+---
 
-<details>
-<summary><b>⚔️ VAPT / Offensive Security</b></summary>
+<div align="center">
+<img src="./assets/dividers/neon-flow.svg" width="100%" alt="Animated neon divider"/>
+</div>
+
+## ⚔ SECURITY MATRIX
+
+<div align="center">
+<table>
+<tr>
+<td width="25%" align="center">
+<img src="./assets/panels/soc.svg" width="100%" alt="SOC panel"/>
+</td>
+<td width="25%" align="center">
+<img src="./assets/panels/vapt.svg" width="100%" alt="VAPT panel"/>
+</td>
+<td width="25%" align="center">
+<img src="./assets/panels/detection.svg" width="100%" alt="Detection engineering panel"/>
+</td>
+<td width="25%" align="center">
+<img src="./assets/panels/hunting.svg" width="100%" alt="Threat hunting panel"/>
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+<div align="center">
+<img src="./assets/dividers/data-stream.svg" width="100%" alt="Animated data stream divider"/>
+</div>
+
+## 🧰 SECURITY ARSENAL
+
+<div align="center">
+
+<img src="https://img.shields.io/badge/WAZUH-005571?style=for-the-badge&logo=wazuh&logoColor=white"/>
+<img src="https://img.shields.io/badge/SYSMON-0078D4?style=for-the-badge&logo=windows&logoColor=white"/>
+<img src="https://img.shields.io/badge/OPENSEARCH-005EB8?style=for-the-badge&logo=opensearch&logoColor=white"/>
+<img src="https://img.shields.io/badge/WIRESHARK-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+<img src="https://img.shields.io/badge/MITRE%20ATT%26CK-111111?style=for-the-badge&logo=mitre&logoColor=white"/>
+
 <br>
 
-<p align="center">
-<img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nmap-4682B4?style=for-the-badge&logo=nmap&logoColor=white"/>
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"/>
-<img src="https://img.shields.io/badge/sqlmap-CC2927?style=for-the-badge&logo=sqlite&logoColor=white"/>
+<img src="https://img.shields.io/badge/BURP%20SUITE-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
+<img src="https://img.shields.io/badge/NMAP-4682B4?style=for-the-badge&logo=nmap&logoColor=white"/>
+<img src="https://img.shields.io/badge/METASPLOIT-2596CD?style=for-the-badge&logo=metasploit&logoColor=white"/>
+<img src="https://img.shields.io/badge/SQLMAP-CC2927?style=for-the-badge&logo=sqlite&logoColor=white"/>
 <img src="https://img.shields.io/badge/OWASP%20ZAP-00549E?style=for-the-badge&logo=owasp&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nessus-00A3E0?style=for-the-badge&logo=tenable&logoColor=white"/>
-<img src="https://img.shields.io/badge/Hashcat-333333?style=for-the-badge"/>
-</p>
+<img src="https://img.shields.io/badge/NESSUS-00A3E0?style=for-the-badge&logo=tenable&logoColor=white"/>
 
-</details>
-
-<details>
-<summary><b>⚙️ Programming / Automation</b></summary>
 <br>
 
-<p align="center">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnubash&logoColor=white"/>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</p>
-
-</details>
-
-<details>
-<summary><b>☁️ Cloud / Infrastructure</b></summary>
-<br>
-
-<p align="center">
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/POWERSHELL-5391FE?style=for-the-badge&logo=powershell&logoColor=white"/>
+<img src="https://img.shields.io/badge/BASH-121011?style=for-the-badge&logo=gnubash&logoColor=white"/>
 <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white"/>
-<img src="https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
-</p>
+<img src="https://img.shields.io/badge/KALI-557C94?style=for-the-badge&logo=kalilinux&logoColor=white"/>
 
-</details>
+</div>
 
 ---
 
-## 🧪 Selected Security Work
+<div align="center">
+<img src="./assets/dividers/threat-track.svg" width="100%" alt="Animated threat track divider"/>
+</div>
+
+## 🧪 SELECTED OPERATIONS
 
 <div align="center">
-
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🛡️ Wazuh SOC Engineering
+### 🛡 Wazuh SOC Engineering
 
-**SIEM / XDR • Detection Engineering**
+`SIEM/XDR` `Detection` `Sysmon`
 
-- Custom rules & decoders
-- Sysmon integration
-- Firewall telemetry
+- Custom rules and decoders
+- Endpoint telemetry
+- Firewall/syslog monitoring
 - Security dashboards
 - Alert tuning
 - Threat hunting
-- RBAC workflows
 
 </td>
 <td width="50%" valign="top">
 
-### 🔬 Web Security & VAPT
+### ⚔ Web VAPT
 
-**Offensive Security • OWASP**
+`OWASP` `Burp Suite` `Recon`
 
-- Web application testing
-- SQLi / XSS / IDOR
+- SQL Injection
+- XSS
+- IDOR
 - Authentication testing
-- Reconnaissance
+- Attack-surface discovery
 - Vulnerability validation
-- Security reporting
 
 </td>
 </tr>
-
 <tr>
 <td width="50%" valign="top">
 
-### ⚙️ Security Automation
+### ⚙ Security Automation
 
-**Python • PowerShell • Bash**
+`Python` `PowerShell` `Bash`
 
-- Security scripting
 - Log processing
+- Security scripting
 - Reporting automation
 - Operational tooling
-- Repeatable workflows
 
 </td>
 <td width="50%" valign="top">
 
-### ☁️ Cloud SOC Infrastructure
+### ☁ Cloud Security
 
-**AWS • EC2 • Linux**
+`AWS` `EC2` `Linux`
 
 - SOC infrastructure
 - Security monitoring
-- Service operations
 - Log pipelines
-- Infrastructure hardening
+- Infrastructure operations
 
 </td>
 </tr>
 </table>
-
 </div>
 
 ---
 
-## 💼 Experience
+<div align="center">
+<img src="./assets/dividers/cyber-circuit.svg" width="100%" alt="Animated cyber circuit divider"/>
+</div>
 
-### `01` Cybersecurity Analyst / Purple Team
-**Innover Systems Pvt. Ltd.** · **Feb 2026 – Present**
+## 💼 EXPERIENCE
+
+**Cybersecurity Analyst / Purple Team — Innover Systems Pvt. Ltd.**  
+`Feb 2026 – Present`
 
 `SOC` `Wazuh` `SIEM/XDR` `VAPT` `Detection Engineering` `Threat Hunting`
 
 - Building practical SOC monitoring capabilities using Wazuh.
-- Developing custom security rules, decoders and dashboards.
+- Developing custom rules, decoders and security dashboards.
 - Monitoring endpoint, Sysmon and firewall telemetry.
 - Performing vulnerability assessment and web application security testing.
 - Investigating suspicious authentication, process and network activity.
-- Tuning detections for better signal quality and operational relevance.
 
-### `02` Offensive Security Intern
-**InLighnX Global Pvt. Ltd.** · **Jul 2025 – Oct 2025**
+**Offensive Security Intern — InLighnX Global Pvt. Ltd.**  
+`Jul 2025 – Oct 2025`
 
-`VAPT` `Web Security` `Python` `Security Testing`
+- Web application security testing and vulnerability validation.
+- Python-based security automation.
+- Practical offensive-security methodology and reporting.
 
-- Performed web application security testing.
-- Developed Python-based security automation.
-- Identified and documented web application vulnerabilities.
-- Applied practical offensive-security methodologies.
+**Ethical Hacking Intern — TechnoHacks EduTech**  
+`Feb 2023 – Jun 2023`
 
-### `03` Ethical Hacking Intern
-**TechnoHacks EduTech** · **Feb 2023 – Jun 2023**
-
-`Network Security` `Reconnaissance` `VAPT` `SOC`
-
-- Conducted network reconnaissance and scanning.
-- Performed security testing across web applications.
-- Worked with practical ethical-hacking and SOC workflows.
+- Network reconnaissance and scanning.
+- Web application security testing.
+- Practical ethical-hacking and SOC workflows.
 
 ---
 
-## 🏆 Credentials
+<div align="center">
+<img src="./assets/dividers/neon-flow.svg" width="100%" alt="Animated neon divider"/>
+</div>
+
+## 🏆 CREDENTIALS
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/CEH%20v13%20with%20AI-EC--Council-8B0000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CEH%20v13%20%2B%20AI-EC--Council-8B0000?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/CompTIA%20Security%2B-SY0--701-EA3E23?style=for-the-badge"/>
+
+<br><br>
+
+`Certified Ethical Hacker (CEH) v13 with AI`  
+`CompTIA Security+ — SY0-701`  
+`Cybersecurity & Digital Forensics Honors`  
+`IJREAM Published Research — WebRTC Security Analysis`
 
 </div>
 
-- **Certified Ethical Hacker (CEH) v13 with AI**
-- **CompTIA Security+ — SY0-701**
-- **Cybersecurity & Digital Forensics Honors**
-- **IJREAM Published Research — WebRTC Security Analysis**
-
 ---
 
-## 📊 GitHub // Telemetry
+<div align="center">
+<img src="./assets/dividers/data-stream.svg" width="100%" alt="Animated data stream divider"/>
+</div>
+
+## 📊 GITHUB TELEMETRY
 
 <div align="center">
 
@@ -305,28 +242,32 @@
 
 <br><br>
 
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ashishpatil7507&theme=github_dark" width="96%" alt="GitHub profile summary"/>
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ashishpatil7507&theme=github_dark" width="96%" alt="GitHub contribution summary"/>
 
 </div>
 
 ---
 
-## 🧠 Security Philosophy
+<div align="center">
+<img src="./assets/dividers/threat-track.svg" width="100%" alt="Animated threat track divider"/>
+</div>
+
+## 🧠 SECURITY MINDSET
 
 <div align="center">
 
 ```text
-        THINK LIKE AN ATTACKER
-                 ↓
-        UNDERSTAND THE ATTACK
-                 ↓
-        COLLECT THE TELEMETRY
-                 ↓
-        BUILD THE DETECTION
-                 ↓
-        INVESTIGATE THE SIGNAL
-                 ↓
-        IMPROVE THE CONTROL
+THINK LIKE AN ATTACKER
+          ↓
+UNDERSTAND THE ATTACK
+          ↓
+COLLECT THE TELEMETRY
+          ↓
+BUILD THE DETECTION
+          ↓
+INVESTIGATE THE SIGNAL
+          ↓
+IMPROVE THE CONTROL
 ```
 
 ### `OFFENSE → VISIBILITY → DETECTION → RESPONSE → HARDENING`
@@ -335,24 +276,20 @@
 
 ---
 
-## 📡 Connect
-
 <div align="center">
 
-<a href="https://linkedin.com/in/ashishpatil7507">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-<a href="mailto:ashishpatil.cyber@gmail.com">
-<img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-</a>
-<a href="https://ashish-patil.gamer.gd">
-<img src="https://img.shields.io/badge/Portfolio-Explore-00C7B7?style=for-the-badge&logo=googlechrome&logoColor=white"/>
-</a>
+## 📡 CONTACT // CHANNEL OPEN
+
+<a href="https://linkedin.com/in/ashishpatil7507"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:ashishpatil.cyber@gmail.com"><img src="https://img.shields.io/badge/EMAIL-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://ashish-patil.gamer.gd"><img src="https://img.shields.io/badge/PORTFOLIO-EXPLORE-00C7B7?style=for-the-badge&logo=googlechrome&logoColor=white"/></a>
 
 <br><br>
 
-`// Security is not just finding the weakness. It's understanding the signal. //`
+`[ SYSTEM STATUS: ONLINE ]`  
+`[ SECURITY TELEMETRY: ACTIVE ]`  
+`[ THREAT SURFACE: MONITORED ]`
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00FF41,50:00C7B7,100:050505&height=120&section=footer" width="100%" alt="Footer"/>
+<img src="./assets/system/cyber-footer.svg" width="100%" alt="Animated cybersecurity footer"/>
