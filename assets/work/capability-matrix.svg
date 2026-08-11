@@ -99,7 +99,7 @@
     </rect>
     
     <text x="20" y="32" class="tag" fill="#8b5cf6">02 // OFFENSIVE SEC</text>
-    <text x="20" y="58" class="h">WEB-APP & API VAPT</text>
+    <text x="20" y="58" class="h">WEB APP VAPT</text>
     <text x="20" y="77" class="s">Assess • Exploit • Validate</text>
     <path d="M20 90H252" stroke="#334155" stroke-dasharray="2 4"/>
     
