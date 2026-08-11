@@ -50,8 +50,8 @@
 </circle>
 
 <!-- Terminal Tags -->
-<text x="80" y="21" class="term" text-anchor="end">TX_STREAM</text>
-<text x="1120" y="35" class="term" text-anchor="start">RX_STREAM</text>
+<text x="80" y="21" class="term" text-anchor="end">CyberSecurity</text>
+<text x="1120" y="35" class="term" text-anchor="start">Ashish Patil </text>
 
 <!-- Central Interlock Node -->
 <g transform="translate(600, 25)">
